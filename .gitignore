@@ -1,9 +1,39 @@
+# Created by https://www.gitignore.io/api/eagle,windows,atmelstudio
+
+### AtmelStudio ###
+## Ignore Atmel Studio temporary files and build results
+# http://www.atmel.com/microsite/atmel_studio6/
+
+# Atmel Studio is powered by an older version of Visual Studio,
+# so most of the project and solution files are the same as VS files,
+# only prefixed by an `at`.
+
+#Build Directories
+[Dd]ebug/
+[Rr]elease/
+
+#Build Results
+*.o
+*.d
+*.eep
+*.elf
+*.hex
+*.map
+*.srec
+
+#User Specific Files
+*.atsuo
+
+### Eagle ###
 # Ignore list for Eagle, a PCB layout tool
 
 # Backup files
 *.s#?
 *.b#?
 *.l#?
+*.b$?
+*.s$?
+*.l$?
 
 # Eagle project file
 # It contains a serial number and references to the file structure
@@ -43,41 +73,11 @@ eagle.epf
 *.lck
 
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Windows
-# =========================
-
-# Windows image file caches
+### Windows ###
+# Windows thumbnail cache files
 Thumbs.db
 ehthumbs.db
+ehthumbs_vista.db
 
 # Folder config file
 Desktop.ini
@@ -93,3 +93,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+# End of https://www.gitignore.io/api/eagle,windows,atmelstudio
