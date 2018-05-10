@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10877,6 +10877,12 @@ TODO: fix symbol&lt;br&gt;</description>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$2" library="SparkFun-Retired" deviceset="LT1014" device=""/>
+<part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P-3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-5V" device=""/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
+<part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10939,10 +10945,16 @@ by actively balancing the load between them.</text>
 <instance part="P+11" gate="1" x="33.02" y="152.4"/>
 <instance part="C8" gate="G$1" x="104.14" y="147.32"/>
 <instance part="GND17" gate="1" x="104.14" y="137.16"/>
-<instance part="U$2" gate="G1" x="149.86" y="193.04"/>
-<instance part="U$2" gate="G2" x="149.86" y="124.46"/>
+<instance part="U$2" gate="G1" x="129.54" y="203.2"/>
+<instance part="U$2" gate="G2" x="129.54" y="134.62"/>
 <instance part="U$2" gate="G3" x="-88.9" y="231.14"/>
 <instance part="U$2" gate="G4" x="-91.44" y="180.34"/>
+<instance part="P+12" gate="1" x="132.08" y="223.52"/>
+<instance part="P-3" gate="1" x="132.08" y="182.88"/>
+<instance part="C9" gate="G$1" x="142.24" y="215.9"/>
+<instance part="C10" gate="G$1" x="142.24" y="185.42"/>
+<instance part="GND18" gate="1" x="142.24" y="208.28"/>
+<instance part="GND19" gate="1" x="142.24" y="177.8"/>
 </instances>
 <busses>
 </busses>
@@ -11016,6 +11028,14 @@ by actively balancing the load between them.</text>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="104.14" y1="142.24" x2="104.14" y2="139.7" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -11029,6 +11049,18 @@ by actively balancing the load between them.</text>
 <wire x1="203.2" y1="114.3" x2="198.12" y2="114.3" width="0.1524" layer="91"/>
 <label x="198.12" y="114.3" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 <pinref part="R1" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G1" pin="-IN"/>
+<wire x1="119.38" y1="208.28" x2="116.84" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="208.28" x2="116.84" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="226.06" x2="149.86" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="226.06" x2="149.86" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G1" pin="OUT"/>
+<wire x1="149.86" y1="203.2" x2="147.32" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="203.2" x2="154.94" y2="203.2" width="0.1524" layer="91"/>
+<junction x="149.86" y="203.2"/>
+<label x="154.94" y="203.2" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
 </segment>
 </net>
 <net name="DUT_+" class="0">
@@ -11088,6 +11120,18 @@ by actively balancing the load between them.</text>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="114.3" x2="256.54" y2="114.3" width="0.1524" layer="91"/>
 <label x="256.54" y="114.3" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G2" pin="-IN"/>
+<wire x1="119.38" y1="139.7" x2="116.84" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="139.7" x2="116.84" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="157.48" x2="149.86" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="157.48" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G2" pin="OUT"/>
+<wire x1="149.86" y1="134.62" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="134.62" x2="154.94" y2="134.62" width="0.1524" layer="91"/>
+<junction x="149.86" y="134.62"/>
+<label x="154.94" y="134.62" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
 </segment>
 </net>
 <net name="CSENSE_L1" class="0">
@@ -11308,12 +11352,21 @@ by actively balancing the load between them.</text>
 <junction x="33.02" y="144.78"/>
 <pinref part="P+11" gate="1" pin="+5V"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G1" pin="+V"/>
+<pinref part="P+12" gate="1" pin="+5V"/>
+<wire x1="132.08" y1="220.98" x2="132.08" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="218.44" x2="132.08" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="218.44" x2="142.24" y2="218.44" width="0.1524" layer="91"/>
+<junction x="132.08" y="218.44"/>
+</segment>
 </net>
 <net name="VGATE_1" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="VOUT"/>
-<wire x1="93.98" y1="198.12" x2="104.14" y2="198.12" width="0.1524" layer="91"/>
-<label x="104.14" y="198.12" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
+<pinref part="U$2" gate="G1" pin="+IN"/>
+<wire x1="119.38" y1="198.12" x2="93.98" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -11334,8 +11387,19 @@ by actively balancing the load between them.</text>
 <net name="VGATE_2" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="VOUT"/>
-<wire x1="93.98" y1="129.54" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
-<label x="104.14" y="129.54" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
+<pinref part="U$2" gate="G2" pin="+IN"/>
+<wire x1="119.38" y1="129.54" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="-5V" class="0">
+<segment>
+<pinref part="U$2" gate="G1" pin="-V"/>
+<pinref part="P-3" gate="1" pin="-5V"/>
+<wire x1="132.08" y1="185.42" x2="132.08" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="187.96" x2="132.08" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="187.96" x2="142.24" y2="187.96" width="0.1524" layer="91"/>
+<junction x="132.08" y="187.96"/>
 </segment>
 </net>
 </nets>
