@@ -24,6 +24,18 @@
 #User Specific Files
 *.atsuo
 
+### LTSpice ###
+# Ignore list for LTSpice
+
+*.net
+*.op
+*.raw
+*.lnk
+*.log
+*.ipynd_checkpoints
+*checkpoint.ipynb
+*.csv
+
 ### Eagle ###
 # Ignore list for Eagle, a PCB layout tool
 
