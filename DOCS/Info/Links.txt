@@ -1,0 +1,17 @@
+# Designs
+
+http://www.scullcom.uk/design-build-an-electronic-dc-load-part-1/
+http://www.kerrywong.com/2016/10/08/linear-mosfet-and-its-use-in-electronic-load/
+https://www.eevblog.com/forum/projects/dynamic-electronic-load-project/
+https://www.eevblog.com/forum/projects/electronic-load-mosfet-balancing/
+
+# Current sense
+
+https://www.reddit.com/r/ECE/comments/57tzx9/auto_ranging_low_current_sensor/
+https://electronics.stackexchange.com/questions/340330/measure-wide-range-of-current-800-µa-1-5-a
+https://www.electropages.com/2016/01/10-tips-for-designing-with-current-sense-resistors/
+https://www.eetimes.com/document.asp?doc_id=1279415&page_number=2
+
+# Voltage sense
+
+https://electronics.stackexchange.com/questions/256370/circuit-for-measuring-high-voltage-dc-voltage-up-to-1000v
