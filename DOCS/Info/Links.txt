@@ -4,6 +4,10 @@ http://www.scullcom.uk/design-build-an-electronic-dc-load-part-1/
 http://www.kerrywong.com/2016/10/08/linear-mosfet-and-its-use-in-electronic-load/
 https://www.eevblog.com/forum/projects/dynamic-electronic-load-project/
 https://www.eevblog.com/forum/projects/electronic-load-mosfet-balancing/
+https://www.eevblog.com/forum/projects/big-active-dc-load-project-igbts-isolated-communications/
+https://www.eevblog.com/forum/projects/electronic-load-design/
+https://www.edn.com/electronics-blogs/benchtalk/4460270/Help-me-build-an-electronic-load---bench-supply
+
 
 # Current sense
 
@@ -15,3 +19,21 @@ https://www.eetimes.com/document.asp?doc_id=1279415&page_number=2
 # Voltage sense
 
 https://electronics.stackexchange.com/questions/256370/circuit-for-measuring-high-voltage-dc-voltage-up-to-1000v
+
+# Op amps
+
+https://electronics.stackexchange.com/questions/34071/how-do-i-correct-the-offset-voltage-of-op-amps-which-have-no-explicit-offset-nul
+https://www.maximintegrated.com/en/app-notes/index.mvp/id/803
+
+
+# Controller
+
+http://www.shaduzlabs.com/blog/12/highaccuracy-16-bit-dac-for-arduino.html
+
+# Cooling
+
+https://www.eevblog.com/forum/projects/heatsink-for-dc-electronic-load/
+https://www.eevblog.com/forum/projects/cpu-cooler-for-electronic-load/
+http://www.diyaudio.com/forums/solid-state/204699-heatsink-thermal-compound-silicon-pads.html
+https://electronics.stackexchange.com/questions/67370/what-material-should-i-use-to-insulate-my-mosfet-from-a-heatsink
+https://electronics.stackexchange.com/questions/122992/cpu-heat-sinks-for-cooling-transistor
