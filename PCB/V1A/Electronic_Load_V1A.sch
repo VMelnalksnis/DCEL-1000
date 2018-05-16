@@ -10758,6 +10758,61 @@ TODO: fix symbol&lt;br&gt;</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="mechanical">
+<packages>
+<package name="HEATSINK-LGA115X">
+<hole x="-37.5" y="37.5" drill="4"/>
+<hole x="37.5" y="37.5" drill="4"/>
+<hole x="37.5" y="-37.5" drill="4"/>
+<hole x="-37.5" y="-37.5" drill="4"/>
+<wire x1="-5.75" y1="5.75" x2="5.75" y2="5.75" width="0.05" layer="51"/>
+<wire x1="5.75" y1="5.75" x2="5.75" y2="-5.75" width="0.05" layer="51"/>
+<wire x1="5.75" y1="-5.75" x2="-5.75" y2="-5.75" width="0.05" layer="51"/>
+<wire x1="-5.75" y1="-5.75" x2="-5.75" y2="5.75" width="0.05" layer="51"/>
+<wire x1="-47.5" y1="47.5" x2="47.5" y2="47.5" width="0.05" layer="51"/>
+<wire x1="47.5" y1="47.5" x2="47.5" y2="-47.5" width="0.05" layer="51"/>
+<wire x1="47.5" y1="-47.5" x2="-47.5" y2="-47.5" width="0.05" layer="51"/>
+<wire x1="-47.5" y1="-47.5" x2="-47.5" y2="47.5" width="0.05" layer="51"/>
+<circle x="0" y="0" radius="47.5" width="0.05" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="KK">
+<wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="4.445" y2="5.08" width="0.254" layer="94"/>
+<wire x1="4.445" y1="5.08" x2="4.445" y2="1.27" width="0.254" layer="94"/>
+<wire x1="4.445" y1="1.27" x2="3.175" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.175" y1="1.27" x2="3.175" y2="5.08" width="0.254" layer="94"/>
+<wire x1="3.175" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-3.175" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="5.08" x2="-3.175" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="1.27" x2="-4.445" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.27" x2="-4.445" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<text x="6.35" y="2.54" size="1.27" layer="95" font="vector" ratio="12">&gt;NAME</text>
+<text x="6.35" y="0" size="1.27" layer="96" font="vector" ratio="12">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HEATSINK-LGA115X" prefix="HS">
+<gates>
+<gate name="G$1" symbol="KK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HEATSINK-LGA115X">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10892,6 +10947,8 @@ TODO: fix symbol&lt;br&gt;</description>
 <part name="P-102" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-5V" device=""/>
 <part name="P+106" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND109" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="HS1" library="mechanical" deviceset="HEATSINK-LGA115X" device=""/>
+<part name="HS2" library="mechanical" deviceset="HEATSINK-LGA115X" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10983,6 +11040,8 @@ by actively balancing the load between them.</text>
 <instance part="P-102" gate="1" x="99.06" y="144.78"/>
 <instance part="P+106" gate="1" x="99.06" y="175.26"/>
 <instance part="GND109" gate="1" x="124.46" y="134.62"/>
+<instance part="HS1" gate="G$1" x="248.92" y="139.7"/>
+<instance part="HS2" gate="G$1" x="330.2" y="139.7"/>
 </instances>
 <busses>
 </busses>

@@ -1,4 +1,4 @@
-# Designs
+﻿# Designs
 
 http://www.scullcom.uk/design-build-an-electronic-dc-load-part-1/
 http://www.kerrywong.com/2016/10/08/linear-mosfet-and-its-use-in-electronic-load/
@@ -37,3 +37,4 @@ https://www.eevblog.com/forum/projects/cpu-cooler-for-electronic-load/
 http://www.diyaudio.com/forums/solid-state/204699-heatsink-thermal-compound-silicon-pads.html
 https://electronics.stackexchange.com/questions/67370/what-material-should-i-use-to-insulate-my-mosfet-from-a-heatsink
 https://electronics.stackexchange.com/questions/122992/cpu-heat-sinks-for-cooling-transistor
+http://sound.whsites.net/heatsinks.htm#s13
