@@ -15,6 +15,9 @@ https://www.reddit.com/r/ECE/comments/57tzx9/auto_ranging_low_current_sensor/
 https://electronics.stackexchange.com/questions/340330/measure-wide-range-of-current-800-µa-1-5-a
 https://www.electropages.com/2016/01/10-tips-for-designing-with-current-sense-resistors/
 https://www.eetimes.com/document.asp?doc_id=1279415&page_number=2
+https://electronics.stackexchange.com/questions/248429/precise-current-measurement-upto-05ua
+https://electronics.stackexchange.com/questions/374852/current-sensing-using-op07
+http://www.analog.com/en/analog-dialogue/articles/optimize-high-current-sensing-accuracy.html
 
 # Voltage sense
 
@@ -24,7 +27,8 @@ https://electronics.stackexchange.com/questions/256370/circuit-for-measuring-hig
 
 https://electronics.stackexchange.com/questions/34071/how-do-i-correct-the-offset-voltage-of-op-amps-which-have-no-explicit-offset-nul
 https://www.maximintegrated.com/en/app-notes/index.mvp/id/803
-
+https://electronics.stackexchange.com/questions/237079/how-to-chose-the-right-decoupling-bypass-capacitor-variant-for-opamp-power-rails/237088
+https://electronics.stackexchange.com/questions/178991/shunt-measurement-with-cheap-op-amp
 
 # Controller
 
