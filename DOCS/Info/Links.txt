@@ -8,6 +8,15 @@ https://www.eevblog.com/forum/projects/big-active-dc-load-project-igbts-isolated
 https://www.eevblog.com/forum/projects/electronic-load-design/
 https://www.edn.com/electronics-blogs/benchtalk/4460270/Help-me-build-an-electronic-load---bench-supply
 
+# Mechanical
+
+https://www.eevblog.com/forum/projects/best-methods-of-soldering-wires-to-boards/
+http://www.diyaudio.com/forums/tubes-valves/170504-220-pcb-spacing-hv-mosfets.html
+https://www.eevblog.com/forum/projects/pcb-creepage-and-clearance-requirements-from-around-the-world/
+https://electronics.stackexchange.com/questions/253466/multilayer-pcb-are-there-voids-in-substrate-between-layers
+https://electronics.stackexchange.com/questions/211025/high-voltage-multilayer-pcb
+https://www.eevblog.com/forum/beginners/diy-binding-posts/
+
 
 # Current sense
 
@@ -42,3 +51,5 @@ http://www.diyaudio.com/forums/solid-state/204699-heatsink-thermal-compound-sili
 https://electronics.stackexchange.com/questions/67370/what-material-should-i-use-to-insulate-my-mosfet-from-a-heatsink
 https://electronics.stackexchange.com/questions/122992/cpu-heat-sinks-for-cooling-transistor
 http://sound.whsites.net/heatsinks.htm#s13
+https://www.anandtech.com/show/10500/stock-cooler-roundup-intel-amd-vs-evo-212/6
+
