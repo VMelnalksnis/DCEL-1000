@@ -1,4 +1,11 @@
-﻿# Designs
+﻿# ADC
+
+http://www.analog.com/en/analog-dialogue/articles/practical-filter-design-precision-adcs.html
+https://electronics.stackexchange.com/questions/222679/how-to-determine-rc-filter-cutoff-of-an-adc-reading
+https://electronics.stackexchange.com/questions/157977/should-i-always-put-a-low-pass-filter-on-an-adc-input
+
+
+# Designs
 
 http://www.scullcom.uk/design-build-an-electronic-dc-load-part-1/
 http://www.kerrywong.com/2016/10/08/linear-mosfet-and-its-use-in-electronic-load/
