@@ -1,5 +1,10 @@
-﻿# ADC
+﻿# Protection
 
+https://www.digikey.com/en/articles/techzone/2014/aug/resistor-capacitor-rc-snubber-design-for-power-switches
+
+# ADC
+
+https://www.eevblog.com/forum/projects/adc-error-budget-and-error-calculations/
 http://www.analog.com/en/analog-dialogue/articles/practical-filter-design-precision-adcs.html
 https://electronics.stackexchange.com/questions/222679/how-to-determine-rc-filter-cutoff-of-an-adc-reading
 https://electronics.stackexchange.com/questions/157977/should-i-always-put-a-low-pass-filter-on-an-adc-input
@@ -14,6 +19,7 @@ https://www.eevblog.com/forum/projects/electronic-load-mosfet-balancing/
 https://www.eevblog.com/forum/projects/big-active-dc-load-project-igbts-isolated-communications/
 https://www.eevblog.com/forum/projects/electronic-load-design/
 https://www.edn.com/electronics-blogs/benchtalk/4460270/Help-me-build-an-electronic-load---bench-supply
+https://hackaday.com/2017/02/28/beefy-100-amp-electronic-load-uses-two-mosfets/
 
 # Mechanical
 
@@ -45,6 +51,8 @@ https://electronics.stackexchange.com/questions/34071/how-do-i-correct-the-offse
 https://www.maximintegrated.com/en/app-notes/index.mvp/id/803
 https://electronics.stackexchange.com/questions/237079/how-to-chose-the-right-decoupling-bypass-capacitor-variant-for-opamp-power-rails/237088
 https://electronics.stackexchange.com/questions/178991/shunt-measurement-with-cheap-op-amp
+http://protorit.blogspot.com/2011/12/precision-op-amp-amplifier-dc-error.html
+https://www.maximintegrated.com/en/app-notes/index.mvp/id/4300
 
 # Controller
 
