@@ -22359,38 +22359,6 @@ wide body 7.5 mm/JEDEC MO-119AA</description>
 </package>
 </packages>
 <symbols>
-<symbol name="OP-AMP+-">
-<wire x1="-3.81" y1="3.175" x2="-3.81" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-4.445" y1="-2.54" x2="-3.175" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.8862" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-3.9116" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="0" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="5.08" y2="0" width="0.4064" layer="94"/>
-<text x="0" y="3.81" size="1.524" layer="95" font="vector" ratio="12">&gt;NAME</text>
-<text x="0" y="-3.81" size="1.524" layer="96" font="vector" ratio="12" align="top-left">&gt;VALUE</text>
-<text x="-1.27" y="4.445" size="0.8128" layer="93" rot="R90">V+</text>
-<text x="-1.27" y="-5.715" size="0.8128" layer="93" rot="R90">V-</text>
-<pin name="-IN" x="-7.62" y="-2.54" visible="pad" length="short" direction="in"/>
-<pin name="+IN" x="-7.62" y="2.54" visible="pad" length="short" direction="in"/>
-<pin name="OUT" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
-<pin name="V+" x="-2.54" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
-<pin name="V-" x="-2.54" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
-</symbol>
-<symbol name="OP-AMP">
-<wire x1="-3.81" y1="3.175" x2="-3.81" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-4.445" y1="-2.54" x2="-3.175" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="0" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="5.08" y2="0" width="0.4064" layer="94"/>
-<text x="0" y="3.81" size="1.524" layer="95" font="vector" ratio="12">&gt;NAME</text>
-<text x="0" y="-3.81" size="1.524" layer="96" font="vector" ratio="12" align="top-left">&gt;VALUE</text>
-<pin name="-IN" x="-7.62" y="-2.54" visible="pad" length="short" direction="in"/>
-<pin name="+IN" x="-7.62" y="2.54" visible="pad" length="short" direction="in"/>
-<pin name="OUT" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
-</symbol>
 <symbol name="AD420">
 <pin name="VLL" x="-12.7" y="15.24" length="short"/>
 <pin name="REF_OUT" x="-12.7" y="10.16" length="short"/>
@@ -22497,45 +22465,40 @@ wide body 7.5 mm/JEDEC MO-119AA</description>
 <pin name="RG@2" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
 <pin name="REF" x="5.08" y="-10.16" length="middle" direction="pas" rot="R90"/>
 </symbol>
+<symbol name="OP-AMP+-">
+<wire x1="-3.81" y1="3.175" x2="-3.81" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="-2.54" x2="-3.175" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.8862" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-3.9116" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="0" width="0.4064" layer="94"/>
+<text x="0" y="3.81" size="1.524" layer="95" font="vector" ratio="12">&gt;NAME</text>
+<text x="0" y="-3.81" size="1.524" layer="96" font="vector" ratio="12" align="top-left">&gt;VALUE</text>
+<text x="-1.27" y="4.445" size="0.8128" layer="93" rot="R90">V+</text>
+<text x="-1.27" y="-5.715" size="0.8128" layer="93" rot="R90">V-</text>
+<pin name="-IN" x="-7.62" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="+IN" x="-7.62" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="V+" x="-2.54" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="V-" x="-2.54" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="OP-AMP">
+<wire x1="-3.81" y1="3.175" x2="-3.81" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="-2.54" x2="-3.175" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="0" width="0.4064" layer="94"/>
+<text x="0" y="3.81" size="1.524" layer="95" font="vector" ratio="12">&gt;NAME</text>
+<text x="0" y="-3.81" size="1.524" layer="96" font="vector" ratio="12" align="top-left">&gt;VALUE</text>
+<pin name="-IN" x="-7.62" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="+IN" x="-7.62" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="LT1014" prefix="U" uservalue="yes">
-<description>&lt;p&gt;
-The LT ®1014 is the first precision quad operational amplifier which directly upgrades designs in the industry standard 14-pin DIP LM324/LM348/OP-11/4156 pin configuration. It is no longer necessary to compromise specifications, while saving board space and cost, as compared to single operational amplifiers.
-&lt;/p&gt;
-&lt;p&gt;
-The LT1014’s low offset voltage of 50µV, drift of 0.3µV/°C, offset current of 0.15nA, gain of 8 million, common mode rejection of 117dB and power supply rejection of 120dB qualify it as four truly precision operational amplifiers. Particularly important is the low offset voltage, since no offset null terminals are provided in the quad configuration. Although supply current is only 350µA per amplifier, a new output stage design sources and sinks in excess of 20mA of load current, while retaining high voltage gain.
-&lt;/p&gt;</description>
-<gates>
-<gate name="A" symbol="OP-AMP+-" x="0" y="22.86"/>
-<gate name="B" symbol="OP-AMP" x="0" y="7.62"/>
-<gate name="C" symbol="OP-AMP" x="0" y="-7.62"/>
-<gate name="D" symbol="OP-AMP" x="0" y="-22.86"/>
-</gates>
-<devices>
-<device name="ISW" package="SO16W">
-<connects>
-<connect gate="A" pin="+IN" pad="3"/>
-<connect gate="A" pin="-IN" pad="2"/>
-<connect gate="A" pin="OUT" pad="1"/>
-<connect gate="A" pin="V+" pad="4"/>
-<connect gate="A" pin="V-" pad="13"/>
-<connect gate="B" pin="+IN" pad="5"/>
-<connect gate="B" pin="-IN" pad="6"/>
-<connect gate="B" pin="OUT" pad="7"/>
-<connect gate="C" pin="+IN" pad="12"/>
-<connect gate="C" pin="-IN" pad="11"/>
-<connect gate="C" pin="OUT" pad="10"/>
-<connect gate="D" pin="+IN" pad="14"/>
-<connect gate="D" pin="-IN" pad="15"/>
-<connect gate="D" pin="OUT" pad="16"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="AD420" prefix="U" uservalue="yes">
 <description>&lt;p&gt;
 The AD420 is a complete digital to current loop output converter, designed to meet the needs of the industrial control market. It provides a high precision, fully integrated, low cost single-chip solution for generating current loop signals in a compact 24-lead SOIC or PDIP package.
@@ -22669,6 +22632,43 @@ The 3-wire, serial I/O, small MSOP or SO-8 package and extremely high sample rat
 <connect gate="G$1" pin="REF" pad="5"/>
 <connect gate="G$1" pin="RG@1" pad="1"/>
 <connect gate="G$1" pin="RG@2" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LT1014" prefix="U" uservalue="yes">
+<description>&lt;p&gt;
+The LT ®1014 is the first precision quad operational amplifier which directly upgrades designs in the industry standard 14-pin DIP LM324/LM348/OP-11/4156 pin configuration. It is no longer necessary to compromise specifications, while saving board space and cost, as compared to single operational amplifiers.
+&lt;/p&gt;
+&lt;p&gt;
+The LT1014’s low offset voltage of 50µV, drift of 0.3µV/°C, offset current of 0.15nA, gain of 8 million, common mode rejection of 117dB and power supply rejection of 120dB qualify it as four truly precision operational amplifiers. Particularly important is the low offset voltage, since no offset null terminals are provided in the quad configuration. Although supply current is only 350µA per amplifier, a new output stage design sources and sinks in excess of 20mA of load current, while retaining high voltage gain.
+&lt;/p&gt;</description>
+<gates>
+<gate name="A" symbol="OP-AMP+-" x="0" y="22.86"/>
+<gate name="B" symbol="OP-AMP" x="0" y="7.62"/>
+<gate name="C" symbol="OP-AMP" x="0" y="-7.62"/>
+<gate name="D" symbol="OP-AMP" x="0" y="-22.86"/>
+</gates>
+<devices>
+<device name="ISW" package="SO16W">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A" pin="V+" pad="4"/>
+<connect gate="A" pin="V-" pad="13"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="C" pin="+IN" pad="12"/>
+<connect gate="C" pin="-IN" pad="11"/>
+<connect gate="C" pin="OUT" pad="10"/>
+<connect gate="D" pin="+IN" pad="14"/>
+<connect gate="D" pin="-IN" pad="15"/>
+<connect gate="D" pin="OUT" pad="16"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -23465,7 +23465,6 @@ wave soldering</description>
 <part name="C104" library="passives" deviceset="C-EU" device="-3216" value="0.1µ"/>
 <part name="GND104" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+104" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="U104" library="ic" deviceset="LT1014" device="ISW" value="LT1014I"/>
 <part name="P+120" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+15V" device=""/>
 <part name="P-102" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-15V" device=""/>
 <part name="R120" library="passives" deviceset="R-EU" device="-3225" value="10k"/>
@@ -23608,7 +23607,7 @@ wave soldering</description>
 <part name="P+118" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C114" library="passives" deviceset="C-EU" device="-3216" value="0.1µ"/>
 <part name="C119" library="passives" deviceset="CPOL" device="-3216-A" value="1µ"/>
-<part name="U103" library="ic" deviceset="LTC1865L" device=""/>
+<part name="U104" library="ic" deviceset="LTC1865L" device=""/>
 <part name="C117" library="passives" deviceset="CPOL" device="-3216-A" value="1µ"/>
 <part name="C118" library="passives" deviceset="C-EU" device="-3216" value="0.1µ"/>
 <part name="+3V3101" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -23692,6 +23691,7 @@ wave soldering</description>
 <part name="P+115" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+116" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+111" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="U103" library="ic" deviceset="LT1014" device="ISW" value="LT1014I"/>
 </parts>
 <sheets>
 <sheet>
@@ -23777,14 +23777,10 @@ wave soldering</description>
 <instance part="C104" gate="G$1" x="7.62" y="27.94"/>
 <instance part="GND104" gate="1" x="7.62" y="20.32"/>
 <instance part="P+104" gate="1" x="7.62" y="33.02"/>
-<instance part="U104" gate="A" x="152.4" y="81.28"/>
-<instance part="U104" gate="B" x="152.4" y="30.48"/>
-<instance part="U104" gate="C" x="116.84" y="73.66"/>
-<instance part="U104" gate="D" x="116.84" y="22.86"/>
-<instance part="P+120" gate="1" x="149.86" y="91.44"/>
-<instance part="P-102" gate="1" x="149.86" y="71.12"/>
+<instance part="P+120" gate="1" x="114.3" y="83.82"/>
+<instance part="P-102" gate="1" x="114.3" y="63.5"/>
 <instance part="R120" gate="G$1" x="134.62" y="73.66"/>
-<instance part="R126" gate="G$1" x="152.4" y="63.5"/>
+<instance part="R126" gate="G$1" x="152.4" y="68.58"/>
 <instance part="R131" gate="G$1" x="170.18" y="71.12" rot="R90"/>
 <instance part="GND122" gate="1" x="170.18" y="63.5"/>
 <instance part="R121" gate="G$1" x="134.62" y="22.86"/>
@@ -23798,7 +23794,7 @@ wave soldering</description>
 <instance part="P+117" gate="1" x="93.98" y="50.8"/>
 <instance part="P-101" gate="1" x="104.14" y="50.8" rot="R180"/>
 <instance part="R112" gate="G$1" x="99.06" y="71.12"/>
-<instance part="R115" gate="G$1" x="116.84" y="63.5"/>
+<instance part="R115" gate="G$1" x="116.84" y="55.88"/>
 <instance part="R117" gate="G$1" x="116.84" y="12.7"/>
 <instance part="R113" gate="G$1" x="99.06" y="20.32"/>
 <instance part="R111" gate="G$1" x="71.12" y="149.86" rot="R90"/>
@@ -23807,7 +23803,7 @@ wave soldering</description>
 <instance part="P+118" gate="1" x="96.52" y="180.34" rot="R90"/>
 <instance part="C114" gate="G$1" x="104.14" y="175.26"/>
 <instance part="C119" gate="G$1" x="132.08" y="175.26"/>
-<instance part="U103" gate="G$1" x="149.86" y="116.84"/>
+<instance part="U104" gate="G$1" x="149.86" y="116.84"/>
 <instance part="C117" gate="G$1" x="106.68" y="111.76"/>
 <instance part="C118" gate="G$1" x="119.38" y="111.76"/>
 <instance part="+3V3101" gate="G$1" x="106.68" y="116.84"/>
@@ -23828,12 +23824,16 @@ wave soldering</description>
 <instance part="GND121" gate="1" x="152.4" y="142.24"/>
 <instance part="IC101" gate="G$1" x="119.38" y="180.34"/>
 <instance part="IC102" gate="G$1" x="119.38" y="154.94"/>
-<instance part="R116" gate="G$1" x="116.84" y="55.88"/>
+<instance part="R116" gate="G$1" x="116.84" y="48.26"/>
 <instance part="R118" gate="G$1" x="116.84" y="5.08"/>
 <instance part="P+110" gate="1" x="63.5" y="111.76"/>
 <instance part="P+115" gate="1" x="81.28" y="111.76"/>
 <instance part="P+116" gate="1" x="81.28" y="55.88"/>
 <instance part="P+111" gate="1" x="63.5" y="55.88"/>
+<instance part="U103" gate="A" x="116.84" y="73.66"/>
+<instance part="U103" gate="B" x="116.84" y="22.86"/>
+<instance part="U103" gate="C" x="152.4" y="30.48"/>
+<instance part="U103" gate="D" x="152.4" y="81.28"/>
 </instances>
 <busses>
 </busses>
@@ -23912,18 +23912,18 @@ wave soldering</description>
 <label x="12.7" y="251.46" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U104" gate="A" pin="OUT"/>
 <wire x1="160.02" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
 <label x="175.26" y="81.28" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
 <pinref part="R126" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="81.28" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="81.28" x2="175.26" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="63.5" x2="165.1" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="63.5" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="68.58" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="68.58" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
 <junction x="165.1" y="81.28"/>
 <pinref part="R131" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="76.2" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
 <junction x="170.18" y="81.28"/>
+<pinref part="U103" gate="D" pin="OUT"/>
 </segment>
 </net>
 <net name="CSENSE1_H" class="0">
@@ -24016,7 +24016,6 @@ wave soldering</description>
 <label x="106.68" y="251.46" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U104" gate="B" pin="OUT"/>
 <wire x1="160.02" y1="30.48" x2="165.1" y2="30.48" width="0.1524" layer="91"/>
 <label x="175.26" y="30.48" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
 <pinref part="R127" gate="G$1" pin="2"/>
@@ -24028,6 +24027,7 @@ wave soldering</description>
 <pinref part="R132" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="25.4" x2="170.18" y2="30.48" width="0.1524" layer="91"/>
 <junction x="170.18" y="30.48"/>
+<pinref part="U103" gate="C" pin="OUT"/>
 </segment>
 </net>
 <net name="CSENSE2_H" class="0">
@@ -24296,7 +24296,7 @@ wave soldering</description>
 <pinref part="GND115" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U103" gate="G$1" pin="GND"/>
+<pinref part="U104" gate="G$1" pin="GND"/>
 <pinref part="GND119" gate="1" pin="GND"/>
 <wire x1="139.7" y1="109.22" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="109.22" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
@@ -24457,7 +24457,7 @@ wave soldering</description>
 <label x="30.48" y="33.02" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U103" gate="G$1" pin="SCK"/>
+<pinref part="U104" gate="G$1" pin="SCK"/>
 <wire x1="160.02" y1="119.38" x2="165.1" y2="119.38" width="0.1524" layer="91"/>
 <label x="165.1" y="119.38" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
 </segment>
@@ -24469,7 +24469,7 @@ wave soldering</description>
 <label x="30.48" y="86.36" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U103" gate="G$1" pin="SDI"/>
+<pinref part="U104" gate="G$1" pin="SDI"/>
 <wire x1="160.02" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
 <label x="165.1" y="109.22" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
 </segment>
@@ -24535,42 +24535,35 @@ wave soldering</description>
 </net>
 <net name="+15V" class="0">
 <segment>
-<pinref part="U104" gate="A" pin="V+"/>
-<pinref part="P+120" gate="1" pin="+15V"/>
-</segment>
-<segment>
 <pinref part="C113" gate="G$1" pin="1"/>
 <pinref part="P+117" gate="1" pin="+15V"/>
+</segment>
+<segment>
+<pinref part="U103" gate="A" pin="V+"/>
+<pinref part="P+120" gate="1" pin="+15V"/>
 </segment>
 </net>
 <net name="-15V" class="0">
 <segment>
-<pinref part="U104" gate="A" pin="V-"/>
-<pinref part="P-102" gate="1" pin="-15V"/>
-</segment>
-<segment>
 <pinref part="C116" gate="G$1" pin="1"/>
 <pinref part="P-101" gate="1" pin="-15V"/>
 </segment>
-</net>
-<net name="N$10" class="0">
 <segment>
-<pinref part="U101" gate="G$1" pin="VOUT"/>
-<pinref part="U104" gate="A" pin="+IN"/>
-<wire x1="60.96" y1="83.82" x2="144.78" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U103" gate="A" pin="V-"/>
+<pinref part="P-102" gate="1" pin="-15V"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="U104" gate="A" pin="-IN"/>
 <wire x1="144.78" y1="78.74" x2="142.24" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R126" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="63.5" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="63.5" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="68.58" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="68.58" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R120" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="73.66" x2="142.24" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="73.66" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
 <junction x="142.24" y="73.66"/>
+<pinref part="U103" gate="D" pin="-IN"/>
 </segment>
 </net>
 <net name="SDO_DAC1" class="0">
@@ -24587,7 +24580,6 @@ wave soldering</description>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U104" gate="B" pin="-IN"/>
 <wire x1="144.78" y1="27.94" x2="142.24" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R127" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="17.78" x2="142.24" y2="17.78" width="0.1524" layer="91"/>
@@ -24596,50 +24588,51 @@ wave soldering</description>
 <wire x1="142.24" y1="22.86" x2="142.24" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="22.86" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
 <junction x="142.24" y="22.86"/>
+<pinref part="U103" gate="C" pin="-IN"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R120" gate="G$1" pin="1"/>
-<pinref part="U104" gate="C" pin="OUT"/>
 <wire x1="124.46" y1="73.66" x2="127" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R115" gate="G$1" pin="2"/>
 <wire x1="127" y1="73.66" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="63.5" x2="127" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="127" y1="63.5" x2="127" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="55.88" x2="127" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="127" y1="55.88" x2="127" y2="73.66" width="0.1524" layer="91"/>
 <junction x="127" y="73.66"/>
 <pinref part="R116" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="55.88" x2="127" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="127" y1="55.88" x2="127" y2="63.5" width="0.1524" layer="91"/>
-<junction x="127" y="63.5"/>
+<wire x1="121.92" y1="48.26" x2="127" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="127" y1="48.26" x2="127" y2="55.88" width="0.1524" layer="91"/>
+<junction x="127" y="55.88"/>
+<pinref part="U103" gate="A" pin="OUT"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="U104" gate="C" pin="-IN"/>
 <wire x1="109.22" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R112" gate="G$1" pin="2"/>
 <pinref part="R115" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="71.12" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="63.5" x2="106.68" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="63.5" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="55.88" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="55.88" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
 <junction x="106.68" y="71.12"/>
 <pinref part="R116" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="55.88" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="55.88" x2="106.68" y2="63.5" width="0.1524" layer="91"/>
-<junction x="106.68" y="63.5"/>
+<wire x1="111.76" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="48.26" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
+<junction x="106.68" y="55.88"/>
+<pinref part="U103" gate="A" pin="-IN"/>
 </segment>
 </net>
 <net name="VSENSE-" class="0">
 <segment>
-<pinref part="U104" gate="C" pin="+IN"/>
 <wire x1="109.22" y1="76.2" x2="91.44" y2="76.2" width="0.1524" layer="91"/>
 <label x="91.44" y="76.2" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+<pinref part="U103" gate="A" pin="+IN"/>
 </segment>
 <segment>
-<pinref part="U104" gate="D" pin="+IN"/>
 <wire x1="109.22" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
 <label x="91.44" y="25.4" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+<pinref part="U103" gate="B" pin="+IN"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -24652,7 +24645,7 @@ wave soldering</description>
 <pinref part="+3V3102" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="U103" gate="G$1" pin="VCC"/>
+<pinref part="U104" gate="G$1" pin="VCC"/>
 <pinref part="+3V3103" gate="G$1" pin="+3V3"/>
 <wire x1="137.16" y1="124.46" x2="139.7" y2="124.46" width="0.1524" layer="91"/>
 </segment>
@@ -24690,7 +24683,7 @@ wave soldering</description>
 <wire x1="162.56" y1="180.34" x2="162.56" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="134.62" x2="132.08" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="134.62" x2="132.08" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U103" gate="G$1" pin="CH0"/>
+<pinref part="U104" gate="G$1" pin="CH0"/>
 <wire x1="132.08" y1="119.38" x2="139.7" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -24704,7 +24697,7 @@ wave soldering</description>
 <wire x1="160.02" y1="154.94" x2="160.02" y2="137.16" width="0.1524" layer="91"/>
 <junction x="152.4" y="154.94"/>
 <wire x1="160.02" y1="137.16" x2="129.54" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U103" gate="G$1" pin="CH1"/>
+<pinref part="U104" gate="G$1" pin="CH1"/>
 <wire x1="129.54" y1="137.16" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="114.3" x2="139.7" y2="114.3" width="0.1524" layer="91"/>
 </segment>
@@ -24714,8 +24707,8 @@ wave soldering</description>
 <pinref part="U102" gate="G$1" pin="VOUT"/>
 <wire x1="60.96" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="27.94" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U104" gate="B" pin="+IN"/>
 <wire x1="73.66" y1="33.02" x2="144.78" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="U103" gate="C" pin="+IN"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -24723,7 +24716,6 @@ wave soldering</description>
 <pinref part="R118" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="5.08" x2="106.68" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="R113" gate="G$1" pin="2"/>
-<pinref part="U104" gate="D" pin="-IN"/>
 <wire x1="104.14" y1="20.32" x2="106.68" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="R117" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="20.32" x2="109.22" y2="20.32" width="0.1524" layer="91"/>
@@ -24732,6 +24724,7 @@ wave soldering</description>
 <junction x="106.68" y="20.32"/>
 <wire x1="106.68" y1="5.08" x2="106.68" y2="12.7" width="0.1524" layer="91"/>
 <junction x="106.68" y="12.7"/>
+<pinref part="U103" gate="B" pin="-IN"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -24743,25 +24736,36 @@ wave soldering</description>
 <wire x1="127" y1="12.7" x2="127" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="R121" gate="G$1" pin="1"/>
 <wire x1="127" y1="22.86" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U104" gate="D" pin="OUT"/>
 <wire x1="124.46" y1="22.86" x2="127" y2="22.86" width="0.1524" layer="91"/>
 <junction x="127" y="22.86"/>
 <wire x1="127" y1="5.08" x2="127" y2="12.7" width="0.1524" layer="91"/>
 <junction x="127" y="12.7"/>
+<pinref part="U103" gate="B" pin="OUT"/>
 </segment>
 </net>
 <net name="SS_TEMP_I" class="0">
 <segment>
-<pinref part="U103" gate="G$1" pin="CONV"/>
+<pinref part="U104" gate="G$1" pin="CONV"/>
 <wire x1="160.02" y1="124.46" x2="165.1" y2="124.46" width="0.1524" layer="91"/>
 <label x="165.1" y="124.46" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
 </segment>
 </net>
 <net name="MISO_I" class="0">
 <segment>
-<pinref part="U103" gate="G$1" pin="SDO"/>
+<pinref part="U104" gate="G$1" pin="SDO"/>
 <wire x1="160.02" y1="114.3" x2="165.1" y2="114.3" width="0.1524" layer="91"/>
 <label x="165.1" y="114.3" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U101" gate="G$1" pin="VOUT"/>
+<wire x1="60.96" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="83.82" x2="73.66" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="88.9" x2="142.24" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="88.9" x2="142.24" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U103" gate="D" pin="+IN"/>
+<wire x1="142.24" y1="83.82" x2="144.78" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -25135,18 +25139,6 @@ wave soldering</description>
 <pinref part="GND226" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="CSENSE_H1" class="0">
-<segment>
-<pinref part="U201" gate="G$1" pin="+"/>
-<wire x1="48.26" y1="254" x2="43.18" y2="254" width="0.1524" layer="91"/>
-<label x="43.18" y="254" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U203" gate="G$1" pin="-"/>
-<wire x1="48.26" y1="132.08" x2="43.18" y2="132.08" width="0.1524" layer="91"/>
-<label x="43.18" y="132.08" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="U206" gate="G$1" pin="VCC"/>
@@ -25200,18 +25192,6 @@ wave soldering</description>
 <pinref part="R202" gate="G$1" pin="2"/>
 <pinref part="U202" gate="G$1" pin="RG@1"/>
 <wire x1="43.18" y1="198.12" x2="48.26" y2="198.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="CSENSE_H2" class="0">
-<segment>
-<pinref part="U202" gate="G$1" pin="+"/>
-<wire x1="48.26" y1="203.2" x2="43.18" y2="203.2" width="0.1524" layer="91"/>
-<label x="43.18" y="203.2" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U204" gate="G$1" pin="-"/>
-<wire x1="48.26" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
-<label x="43.18" y="81.28" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -25282,14 +25262,14 @@ wave soldering</description>
 <wire x1="43.18" y1="96.52" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CSENSE_L1" class="0">
+<net name="CSENSE1_L" class="0">
 <segment>
 <pinref part="U203" gate="G$1" pin="+"/>
 <wire x1="48.26" y1="152.4" x2="43.18" y2="152.4" width="0.1524" layer="91"/>
 <label x="43.18" y="152.4" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CSENSE_L2" class="0">
+<net name="CSENSE2_L" class="0">
 <segment>
 <pinref part="U204" gate="G$1" pin="+"/>
 <wire x1="48.26" y1="101.6" x2="43.18" y2="101.6" width="0.1524" layer="91"/>
@@ -25526,6 +25506,30 @@ wave soldering</description>
 <pinref part="S201" gate="1" pin="13"/>
 <wire x1="22.86" y1="22.86" x2="17.78" y2="22.86" width="0.1524" layer="91"/>
 <label x="17.78" y="22.86" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CSENSE1_H" class="0">
+<segment>
+<pinref part="U201" gate="G$1" pin="+"/>
+<wire x1="48.26" y1="254" x2="43.18" y2="254" width="0.1524" layer="91"/>
+<label x="43.18" y="254" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U203" gate="G$1" pin="-"/>
+<wire x1="48.26" y1="132.08" x2="43.18" y2="132.08" width="0.1524" layer="91"/>
+<label x="43.18" y="132.08" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CSENSE2_H" class="0">
+<segment>
+<pinref part="U202" gate="G$1" pin="+"/>
+<wire x1="48.26" y1="203.2" x2="43.18" y2="203.2" width="0.1524" layer="91"/>
+<label x="43.18" y="203.2" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U204" gate="G$1" pin="-"/>
+<wire x1="48.26" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
+<label x="43.18" y="81.28" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -26660,7 +26664,7 @@ All ADC inputs have a 3.183MHz low-pass RC filter.</text>
 <junction x="289.56" y="71.12"/>
 </segment>
 </net>
-<net name="SS_CH_I" class="0">
+<net name="SS_CL_I" class="0">
 <segment>
 <pinref part="U605" gate="G$1" pin="VO1"/>
 <pinref part="R620" gate="G$1" pin="1"/>
@@ -26673,20 +26677,7 @@ All ADC inputs have a 3.183MHz low-pass RC filter.</text>
 <label x="360.68" y="152.4" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
 </segment>
 </net>
-<net name="SS_CL_I" class="0">
-<segment>
-<pinref part="U605" gate="G$1" pin="VO2"/>
-<pinref part="R623" gate="G$1" pin="1"/>
-<wire x1="325.12" y1="147.32" x2="350.52" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="147.32" x2="350.52" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C623" gate="G$1" pin="1"/>
-<wire x1="350.52" y1="142.24" x2="350.52" y2="147.32" width="0.1524" layer="91"/>
-<junction x="350.52" y="147.32"/>
-<wire x1="350.52" y1="147.32" x2="360.68" y2="147.32" width="0.1524" layer="91"/>
-<label x="360.68" y="147.32" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
-</segment>
-</net>
-<net name="SS_V_I" class="0">
+<net name="SS_TEMP_I" class="0">
 <segment>
 <pinref part="U606" gate="G$1" pin="VO1"/>
 <pinref part="R621" gate="G$1" pin="1"/>
@@ -26699,45 +26690,18 @@ All ADC inputs have a 3.183MHz low-pass RC filter.</text>
 <label x="360.68" y="81.28" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
 </segment>
 </net>
-<net name="SS_TEMP_I" class="0">
-<segment>
-<pinref part="U606" gate="G$1" pin="VO2"/>
-<pinref part="R624" gate="G$1" pin="1"/>
-<wire x1="325.12" y1="76.2" x2="350.52" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="76.2" x2="350.52" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C624" gate="G$1" pin="1"/>
-<wire x1="350.52" y1="71.12" x2="350.52" y2="76.2" width="0.1524" layer="91"/>
-<junction x="350.52" y="76.2"/>
-<wire x1="350.52" y1="76.2" x2="360.68" y2="76.2" width="0.1524" layer="91"/>
-<label x="360.68" y="76.2" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
-</segment>
-</net>
-<net name="SS_CH" class="0">
+<net name="SS_CL" class="0">
 <segment>
 <pinref part="Q607" gate="G$1" pin="B"/>
 <wire x1="269.24" y1="147.32" x2="259.08" y2="147.32" width="0.1524" layer="91"/>
 <label x="259.08" y="147.32" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SS_CL" class="0">
-<segment>
-<pinref part="Q610" gate="G$1" pin="B"/>
-<wire x1="284.48" y1="132.08" x2="259.08" y2="132.08" width="0.1524" layer="91"/>
-<label x="259.08" y="132.08" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SS_V" class="0">
+<net name="SS_TEMP" class="0">
 <segment>
 <pinref part="Q608" gate="G$1" pin="B"/>
 <wire x1="269.24" y1="76.2" x2="259.08" y2="76.2" width="0.1524" layer="91"/>
 <label x="259.08" y="76.2" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SS_TEMP" class="0">
-<segment>
-<pinref part="Q611" gate="G$1" pin="B"/>
-<wire x1="284.48" y1="60.96" x2="259.08" y2="60.96" width="0.1524" layer="91"/>
-<label x="259.08" y="60.96" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$76" class="0">
@@ -26770,7 +26734,7 @@ All ADC inputs have a 3.183MHz low-pass RC filter.</text>
 <label x="33.02" y="215.9" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SS_DAC_ISO" class="0">
+<net name="SS_DAC_I" class="0">
 <segment>
 <pinref part="U601" gate="G$1" pin="VO1"/>
 <pinref part="R607" gate="G$1" pin="1"/>
@@ -26783,7 +26747,7 @@ All ADC inputs have a 3.183MHz low-pass RC filter.</text>
 <label x="134.62" y="220.98" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
 </segment>
 </net>
-<net name="BYP_G_ISO" class="0">
+<net name="BYP_I" class="0">
 <segment>
 <pinref part="U601" gate="G$1" pin="VO2"/>
 <pinref part="C610" gate="G$1" pin="1"/>
@@ -26826,7 +26790,7 @@ All ADC inputs have a 3.183MHz low-pass RC filter.</text>
 <label x="33.02" y="144.78" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="DAC_FAULT_ISO" class="0">
+<net name="FLT_DAC_I" class="0">
 <segment>
 <pinref part="Q605" gate="G$1" pin="B"/>
 <wire x1="58.42" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
@@ -26882,7 +26846,7 @@ All ADC inputs have a 3.183MHz low-pass RC filter.</text>
 <junction x="63.5" y="68.58"/>
 </segment>
 </net>
-<net name="DAC_CLR" class="0">
+<net name="CLR_DAC_I" class="0">
 <segment>
 <pinref part="Q603" gate="G$1" pin="B"/>
 <wire x1="43.18" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
@@ -26925,6 +26889,46 @@ All ADC inputs have a 3.183MHz low-pass RC filter.</text>
 <pinref part="Q604" gate="G$1" pin="B"/>
 <wire x1="58.42" y1="200.66" x2="33.02" y2="200.66" width="0.1524" layer="91"/>
 <label x="33.02" y="200.66" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SS_V" class="0">
+<segment>
+<pinref part="Q611" gate="G$1" pin="B"/>
+<wire x1="284.48" y1="60.96" x2="259.08" y2="60.96" width="0.1524" layer="91"/>
+<label x="259.08" y="60.96" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SS_V_I" class="0">
+<segment>
+<pinref part="U606" gate="G$1" pin="VO2"/>
+<pinref part="R624" gate="G$1" pin="1"/>
+<wire x1="325.12" y1="76.2" x2="350.52" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="76.2" x2="350.52" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="C624" gate="G$1" pin="1"/>
+<wire x1="350.52" y1="71.12" x2="350.52" y2="76.2" width="0.1524" layer="91"/>
+<junction x="350.52" y="76.2"/>
+<wire x1="350.52" y1="76.2" x2="360.68" y2="76.2" width="0.1524" layer="91"/>
+<label x="360.68" y="76.2" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
+</segment>
+</net>
+<net name="SS_CH" class="0">
+<segment>
+<pinref part="Q610" gate="G$1" pin="B"/>
+<wire x1="284.48" y1="132.08" x2="259.08" y2="132.08" width="0.1524" layer="91"/>
+<label x="259.08" y="132.08" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SS_CH_I" class="0">
+<segment>
+<pinref part="U605" gate="G$1" pin="VO2"/>
+<pinref part="R623" gate="G$1" pin="1"/>
+<wire x1="325.12" y1="147.32" x2="350.52" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="147.32" x2="350.52" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="C623" gate="G$1" pin="1"/>
+<wire x1="350.52" y1="142.24" x2="350.52" y2="147.32" width="0.1524" layer="91"/>
+<junction x="350.52" y="147.32"/>
+<wire x1="350.52" y1="147.32" x2="360.68" y2="147.32" width="0.1524" layer="91"/>
+<label x="360.68" y="147.32" size="1.27" layer="95" font="vector" ratio="12" xref="yes"/>
 </segment>
 </net>
 </nets>
