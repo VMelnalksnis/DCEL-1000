@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -349,7 +349,7 @@ DIN A4, 185 x 276 mm</description>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="U$1" gate="G$1" x="43.18" y="190.5"/>
+<instance part="U$1" gate="G$1" x="40.64" y="187.96"/>
 </instances>
 <busses>
 </busses>

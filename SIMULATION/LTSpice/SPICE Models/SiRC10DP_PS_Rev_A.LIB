@@ -1,0 +1,51 @@
+********************************
+* Copyright:                   *
+* Vishay Intertechnology, Inc. *
+********************************
+*Jun 19, 2017
+*ECN S17-0924, Rev. A
+*File Name: SiRC10DP_PS.txt and SiRC10DP_PS.lib
+*This document is intended as a SPICE modeling guideline and does not
+*constitute a commercial product datasheet. Designers should refer to the
+*appropriate datasheet of the same number for guaranteed specification
+*limits.
+.SUBCKT SiRC10DP D G S 
+X1 D G S SiRC10DP_nm 
+X2 S D   SiRC10DP_schottky 
+.ENDS SiRC10DP 
+.SUBCKT SiRC10DP_nm D G S 
+M1 3 GX S S NMOS W= 412500u L= 0.30u 
+M2 S GX S D PMOS W= 412500u L= 0.83u 
+R1 D 3 2.490e-03 TC=3.500e-03,1.008e-05
+CGS GX S 1.762e-09 
+CGD GX D 1.006e-12 
+RG G GY 1m 
+RTCV 100 S 1e6 TC=1.072e-05,-3.142e-06
+ETCV GX GY 100 200 1 
+ITCV S 100 1u 
+VTCV 200 S 1 
+**************************************************************** 
+.MODEL NMOS NMOS ( LEVEL = 3 TOX = 5e-8 
++ RS = 0 KP = 1.387e-04 NSUB = 9.208e+16 
++ KAPPA = 1.189e-01 NFS = 4.050e+11 
++ LD = 0 IS = 0 TPG = 1    )
+*************************************************************** 
+.MODEL PMOS PMOS ( LEVEL = 3 TOX = 5e-8 
++NSUB = 1.297e+17 IS = 0 TPG = -1    )
+**************************************************************** 
+.ENDS SiRC10DP_nm 
+.subckt SiRC10DP_schottky 7 5 
+d1 7 5 sdsm 
+d2 7 5 sdlg 
+d3 7 4 sdrev 
+d4 5 4 sdblk 
+.MODEL sdsm d (IS = 9.990e-10 N = 1.308e+00 EG = 1.016e+00 
++XTI = 2.792e+00 RS = 1.458e-03 TRS1 = 6.511e-04 )
+.MODEL sdlg d (IS = 1.014e-05 N = 1.132e+00 EG = 4.900e-01 
++XTI = 1.270e+00 RS = 2.605e-02 TRS1 = 2.920e-03
++VJ = 5.000e+00 CJO = 2.933e-09 M = 1.031e+00 
++TT = 2.000e-07 ) 
+.MODEL sdrev d (IS = 5.96e-06 N = 3.902e+00 EG = 2.000e+00 
++XTI = 1.943e+01 ) 
+.MODEL sdblk d (IS = 1e-11 N=1) 
+.ends SiRC10DP_schottky 
