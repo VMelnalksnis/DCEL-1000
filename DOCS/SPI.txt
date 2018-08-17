@@ -1,0 +1,8 @@
+Link to SPI optocoupler design
+https://www.powersystemsdesign.com/articles/optimize-data-rates-in-isolated-spi-buses/22/5898
+
+Maximum bidirectional speed = 2,5 MHz
+Closest available speed for STM32F103C8 = 2.25 MHz
+
+Termination isn't needed, since wavelength @ 2.5 MHz = 72m, @5th harmonic = 14.4m
+I doubt that any SPI trace is going to be longer than 1.44 meters.
