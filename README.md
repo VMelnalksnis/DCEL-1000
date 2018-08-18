@@ -1,6 +1,14 @@
-# Electronic Load
+# DCEL-1000
 
-A digital electronic load with maximum input voltage of 500V, input current of 100A and power dissapation of 200W.
+DCEL-1000 is a digital DC electronic load.
+* Operates between 0 - 500 VDC, 4 μA<sup>1</sup> - 30A (~200 W maximum, depending on cooling solution)
+* Two current ranges: 30 A (2 mA<sup>1</sup> resolution) and 50 mA (4 μA<sup>1</sup> resolution)
+* Has dedicated voltage sense terminals
+* Consists of two parallel MOSFETs with separate current sense and gate drive
+* Controlled via opto-isolated 2.5 MHz SPI interface and control signals
+* Requires +12 VDC, provides isolated +5 VDC (1 W)
+
+<sup>1</sup> Theoretical resolution without oversampling assuming 2 LSB noise for current sense ADCs, most likely will change
 
 ## Table of contents
 
@@ -8,15 +16,8 @@ A digital electronic load with maximum input voltage of 500V, input current of 1
 1. [Project status](#project-status)
 1. [Getting started](#getting-started)
 	1. [Dependencies](#dependencies)
-	1. [Building](#building)
-    1. [Installation](#installation)
-    1. [Usage](#usage)
-1. [How to Get Help](#how-to-get-help)
-1. [Further Reading](#further-reading)
-1. [Contributing](#contributing)
 1. [License](#license)
 1. [Authors](#authors)
-1. [Acknowledgements](#acknowledgements)
 
 
 # About the project
