@@ -15,3 +15,14 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+# Documentation directories
+DOCS/* linguist-documentation
+
+#LTSpice
+*.asc linguist-detectable=true
+*.plt linguist-detectable=true
+
+#Eagle
+*.brd linguist-detectable=true
+*.sch linguist-detectable=true
