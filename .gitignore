@@ -1,5 +1,7 @@
 # Created by https://www.gitignore.io/api/eagle,windows,atmelstudio
 
+[Aa]rchive/
+
 ### AtmelStudio ###
 ## Ignore Atmel Studio temporary files and build results
 # http://www.atmel.com/microsite/atmel_studio6/
