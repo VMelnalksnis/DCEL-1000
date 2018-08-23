@@ -22,6 +22,8 @@ DOCS/* linguist-documentation
 #LTSpice
 *.asc linguist-detectable=true
 *.plt linguist-detectable=true
+*.asc linguist-language=LTSpice
+*.plt linguist-language=LTSpice
 
 #Eagle
 *.brd linguist-detectable=true
