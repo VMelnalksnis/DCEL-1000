@@ -23441,6 +23441,11 @@ Connectors</text>
 <pinref part="C318" gate="G$1" pin="2"/>
 <pinref part="GNDI302" gate="G$1" pin="GNDI"/>
 </segment>
+<segment>
+<pinref part="JP301" gate="A" pin="15"/>
+<wire x1="116.84" y1="160.02" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
+<label x="111.76" y="160.02" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="+5V_I" class="5">
 <segment>
@@ -23456,6 +23461,11 @@ Connectors</text>
 <pinref part="C318" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="162.56" x2="187.96" y2="165.1" width="0.1524" layer="91"/>
 <junction x="187.96" y="165.1"/>
+</segment>
+<segment>
+<pinref part="JP301" gate="A" pin="16"/>
+<wire x1="116.84" y1="157.48" x2="111.76" y2="157.48" width="0.1524" layer="91"/>
+<label x="111.76" y="157.48" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VREF1" class="0">
@@ -23607,6 +23617,104 @@ Connectors</text>
 <pinref part="L303" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="165.1" x2="149.86" y2="165.1" width="0.1524" layer="91"/>
 <junction x="149.86" y="165.1"/>
+</segment>
+</net>
+<net name="FAN1_PWM_I" class="5">
+<segment>
+<pinref part="JP301" gate="A" pin="14"/>
+<wire x1="116.84" y1="162.56" x2="111.76" y2="162.56" width="0.1524" layer="91"/>
+<label x="111.76" y="162.56" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="FAN2_PWM_I" class="5">
+<segment>
+<pinref part="JP301" gate="A" pin="13"/>
+<wire x1="116.84" y1="165.1" x2="111.76" y2="165.1" width="0.1524" layer="91"/>
+<label x="111.76" y="165.1" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CONV_V_I" class="5">
+<segment>
+<pinref part="JP301" gate="A" pin="12"/>
+<wire x1="116.84" y1="167.64" x2="111.76" y2="167.64" width="0.1524" layer="91"/>
+<label x="111.76" y="167.64" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CONV_C2_I" class="5">
+<segment>
+<pinref part="JP301" gate="A" pin="11"/>
+<wire x1="116.84" y1="170.18" x2="111.76" y2="170.18" width="0.1524" layer="91"/>
+<label x="111.76" y="170.18" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CONV_TEMP_I" class="5">
+<segment>
+<pinref part="JP301" gate="A" pin="10"/>
+<wire x1="116.84" y1="172.72" x2="111.76" y2="172.72" width="0.1524" layer="91"/>
+<label x="111.76" y="172.72" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CONV_C1_I" class="5">
+<segment>
+<pinref part="JP301" gate="A" pin="9"/>
+<wire x1="116.84" y1="175.26" x2="111.76" y2="175.26" width="0.1524" layer="91"/>
+<label x="111.76" y="175.26" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BYP_I" class="5">
+<segment>
+<pinref part="JP301" gate="A" pin="8"/>
+<wire x1="116.84" y1="177.8" x2="111.76" y2="177.8" width="0.1524" layer="91"/>
+<label x="111.76" y="177.8" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="LATCH_DAC_I" class="5">
+<segment>
+<pinref part="JP301" gate="A" pin="7"/>
+<wire x1="116.84" y1="180.34" x2="111.76" y2="180.34" width="0.1524" layer="91"/>
+<label x="111.76" y="180.34" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CLR_DAC1_I" class="5">
+<segment>
+<pinref part="JP301" gate="A" pin="6"/>
+<wire x1="116.84" y1="182.88" x2="111.76" y2="182.88" width="0.1524" layer="91"/>
+<label x="111.76" y="182.88" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CLR_DAC2_I" class="5">
+<segment>
+<pinref part="JP301" gate="A" pin="5"/>
+<wire x1="116.84" y1="185.42" x2="111.76" y2="185.42" width="0.1524" layer="91"/>
+<label x="111.76" y="185.42" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOSI_I" class="5">
+<segment>
+<pinref part="JP301" gate="A" pin="4"/>
+<wire x1="116.84" y1="187.96" x2="111.76" y2="187.96" width="0.1524" layer="91"/>
+<label x="111.76" y="187.96" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SCK_I" class="5">
+<segment>
+<pinref part="JP301" gate="A" pin="3"/>
+<wire x1="116.84" y1="190.5" x2="111.76" y2="190.5" width="0.1524" layer="91"/>
+<label x="111.76" y="190.5" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MISO_I" class="5">
+<segment>
+<pinref part="JP301" gate="A" pin="2"/>
+<wire x1="116.84" y1="193.04" x2="111.76" y2="193.04" width="0.1524" layer="91"/>
+<label x="111.76" y="193.04" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="FLT_DAC_I" class="5">
+<segment>
+<pinref part="JP301" gate="A" pin="1"/>
+<wire x1="116.84" y1="195.58" x2="111.76" y2="195.58" width="0.1524" layer="91"/>
+<label x="111.76" y="195.58" size="1.27" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

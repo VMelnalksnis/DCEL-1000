@@ -1,0 +1,30 @@
+* PSpice Model Editor - Version 9.2
+
+*$
+*DEVICE=IXTK110N30,NMOS
+
+* IXTK110N30 NMOS model
+* updated using Model Editor release 9.2.1 on 03/03/04 at 12:24
+* The Model Editor is a PSpice product HEM.
+.MODEL IXTK110N30 NMOS
++ LEVEL=3
++ L=2.0000E-6
++ W=600
++ KP=1.0357E-6
++ RS=10.000E-3
++ RD=12.350E-3
++ VTO=3.9132
++ RDS=60.000E6
++ TOX=2.0000E-6
++ CGSO=16.667E-18
++ CGDO=2.4186E-12
++ CBD=15.066E-9
++ MJ=.92995
++ PB=.68327
++ RG=10.000E-3
++ IS=41.469E-6
++ N=2.4305
++ RB=1.0000E-9
++ GAMMA=0
++ KAPPA=0
+*$
