@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -1759,525 +1759,525 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="R112" library="passives" package="RESC3216" value="2R" x="-41" y="0" rot="MR90">
+<element name="R112" library="passives" package="RESC3216" value="2R" x="-41" y="0" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-39.5" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-42.5" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R118" library="passives" package="RESC3216" value="2R" x="-38.5" y="0" rot="MR90">
+<element name="R118" library="passives" package="RESC3216" value="2R" x="-38.5" y="0" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-37" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-40" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R123" library="passives" package="RESC3216" value="2R" x="-31.5" y="7.5" rot="MR0">
+<element name="R123" library="passives" package="RESC3216" value="2R" x="-31.5" y="7.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-31.5" y="9" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-31.5" y="6" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R121" library="passives" package="RESC6332" value="0R01" x="-22" y="23" rot="MR0">
+<element name="R121" library="passives" package="RESC6332" value="0R01" x="-22" y="23" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-19.46" y="24.905" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-19.46" y="19.825" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="Q119" library="transistors" package="TO-264P-H-PADUP" value="IXTK102N65X2" x="-50" y="24.5" locked="yes" rot="R180"/>
-<element name="Q109" library="transistors" package="POWERPAK-SO-8" value="SIRC10DP" x="-33.25" y="19.5" rot="MR0">
+<element name="Q119" library="transistors" package="TO-264P-H-PADUP" value="IXTK102N65X2" x="-50" y="24.5" locked="yes" smashed="yes" rot="R180"/>
+<element name="Q109" library="transistors" package="POWERPAK-SO-8" value="SIRC10DP" x="-33.25" y="19.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-33.25" y="22.3" size="1" layer="26" font="vector" ratio="12" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-33.25" y="16.7" size="1" layer="28" font="vector" ratio="12" rot="MR0" align="top-center"/>
 </element>
-<element name="Q113" library="transistors" package="POWERPAK-SO-8" value="SIRC10DP" x="-33" y="12.5" rot="MR0">
+<element name="Q113" library="transistors" package="POWERPAK-SO-8" value="SIRC10DP" x="-33" y="12.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-33" y="15.3" size="1" layer="26" font="vector" ratio="12" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-33" y="9.7" size="1" layer="28" font="vector" ratio="12" rot="MR0" align="top-center"/>
 </element>
-<element name="R124" library="passives" package="RESC6332" value="0R01" x="-22" y="16" rot="MR0">
+<element name="R124" library="passives" package="RESC6332" value="0R01" x="-22" y="16" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-19.46" y="17.905" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-19.46" y="12.825" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="Q117" library="transistors" package="SOT23" value="BC817" x="-47" y="-5" rot="MR180">
+<element name="Q117" library="transistors" package="SOT23" value="BC817" x="-47" y="-5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-47" y="-7" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-47" y="-3" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="Q112" library="transistors" package="SOT23" value="BC817" x="-52" y="0" rot="MR180">
+<element name="Q112" library="transistors" package="SOT23" value="BC817" x="-52" y="0" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-52" y="-2" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-52" y="2" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="Q118" library="transistors" package="SOT23" value="BC807" x="-47" y="0" rot="MR180">
+<element name="Q118" library="transistors" package="SOT23" value="BC807" x="-47" y="0" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-47" y="-2" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-47" y="2" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="R116" library="passives" package="RESC1608" value="100k" x="-55.75" y="-5" rot="MR270">
+<element name="R116" library="passives" package="RESC1608" value="100k" x="-55.75" y="-5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-56.75" y="-5" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="-54.75" y="-5" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R119" library="passives" package="RESC1608" value="1k" x="-53.25" y="-5" rot="MR270">
+<element name="R119" library="passives" package="RESC1608" value="1k" x="-53.25" y="-5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-54.25" y="-5" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="-52.25" y="-5" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R113" library="passives" package="RESC1608" value="1k" x="-55.75" y="0" rot="MR90">
+<element name="R113" library="passives" package="RESC1608" value="1k" x="-55.75" y="0" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-54.75" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-56.75" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C120" library="passives" package="CAPC1608" value="100n" x="-50.75" y="-5" rot="MR90">
+<element name="C120" library="passives" package="CAPC1608" value="100n" x="-50.75" y="-5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-49.75" y="-5" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-51.75" y="-5" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="U101" library="ic" package="SO24W" value="AD420" x="-71" y="-12" rot="MR0">
+<element name="U101" library="ic" package="SO24W" value="AD420" x="-71" y="-12" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-62.5" y="-12" size="1.5" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-71" y="-12" size="1.5" layer="28" font="vector" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="C107" library="passives" package="CAPC2012" value="10n" x="-65" y="-4" rot="MR0">
+<element name="C107" library="passives" package="CAPC2012" value="10n" x="-65" y="-4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-65" y="-3" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-65" y="-5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C109" library="passives" package="CAPC2012" value="10n" x="-69.5" y="-4" rot="MR0">
+<element name="C109" library="passives" package="CAPC2012" value="10n" x="-69.5" y="-4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-69.5" y="-3" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-69.5" y="-5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C103" library="passives" package="CAPC1608" value="100n" x="-71" y="-15" rot="R180">
+<element name="C103" library="passives" package="CAPC1608" value="100n" x="-71" y="-15" smashed="yes" rot="R180">
 <attribute name="NAME" x="-71" y="-16" size="1" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="-71" y="-14" size="1" layer="27" font="vector" ratio="15" rot="R180" align="top-center"/>
 </element>
-<element name="C101" library="passives" package="CAPC3216" value="4µ7" x="-71" y="-12.75" rot="R180">
+<element name="C101" library="passives" package="CAPC3216" value="4µ7" x="-71" y="-12.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="-71" y="-14.25" size="1" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="-71" y="-11.25" size="1" layer="27" font="vector" ratio="15" rot="R180" align="top-center"/>
 </element>
-<element name="C105" library="passives" package="CAPC1608" value="100n" x="-71" y="-10.5" rot="R180">
+<element name="C105" library="passives" package="CAPC1608" value="100n" x="-71" y="-10.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="-71" y="-11.5" size="1" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="-71" y="-9.5" size="1" layer="27" font="vector" ratio="15" rot="R180" align="top-center"/>
 </element>
-<element name="C111" library="passives" package="CAPC1608" value="100n" x="-75" y="3" rot="R180">
+<element name="C111" library="passives" package="CAPC1608" value="100n" x="-75" y="3" smashed="yes" rot="R180">
 <attribute name="NAME" x="-75" y="2" size="1" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="-75" y="4" size="1" layer="27" font="vector" ratio="15" rot="R180" align="top-center"/>
 </element>
-<element name="C112" library="passives" package="CAPC1608" value="100n" x="-75" y="-3" rot="R180">
+<element name="C112" library="passives" package="CAPC1608" value="100n" x="-75" y="-3" smashed="yes" rot="R180">
 <attribute name="NAME" x="-75" y="-4" size="1" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="-75" y="-2" size="1" layer="27" font="vector" ratio="15" rot="R180" align="top-center"/>
 </element>
-<element name="U105" library="ic" package="SO8" value="AD620" x="-21.5" y="0" rot="MR180">
+<element name="U105" library="ic" package="SO8" value="AD620" x="-21.5" y="0" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-24.5" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="-18.5" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R131" library="passives" package="RESC2012" value="2k15" x="-25.5" y="0" rot="MR90">
+<element name="R131" library="passives" package="RESC2012" value="2k15" x="-25.5" y="0" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-24.5" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-26.5" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="U109" library="ic" package="SO8" value="LTC1865L" x="-26.75" y="-10" rot="MR180">
+<element name="U109" library="ic" package="SO8" value="LTC1865L" x="-26.75" y="-10" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-29.75" y="-10" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="-23.75" y="-10" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="C133" library="passives" package="CAPC3216" value="4µ7" x="-26.75" y="-7.5">
+<element name="C133" library="passives" package="CAPC3216" value="4µ7" x="-26.75" y="-7.5" smashed="yes">
 <attribute name="NAME" x="-26.75" y="-6" size="1" layer="25" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VALUE" x="-26.75" y="-9" size="1" layer="27" font="vector" ratio="15" align="top-center"/>
 </element>
-<element name="C135" library="passives" package="CAPC1608" value="100n" x="-26.75" y="-10">
+<element name="C135" library="passives" package="CAPC1608" value="100n" x="-26.75" y="-10" smashed="yes">
 <attribute name="NAME" x="-26.75" y="-9" size="1" layer="25" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VALUE" x="-26.75" y="-11" size="1" layer="27" font="vector" ratio="15" align="top-center"/>
 </element>
-<element name="U106" library="ic" package="SO8" value="AD620" x="-32" y="0" rot="MR180">
+<element name="U106" library="ic" package="SO8" value="AD620" x="-32" y="0" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-35" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="-29" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R132" library="passives" package="RESC2012" value="2k15" x="-36" y="0" rot="MR90">
+<element name="R132" library="passives" package="RESC2012" value="2k15" x="-36" y="0" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-35" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-37" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C121" library="passives" package="CAPC1608" value="100n" x="-20.865" y="-2.095">
+<element name="C121" library="passives" package="CAPC1608" value="100n" x="-20.865" y="-2.095" smashed="yes">
 <attribute name="NAME" x="-20.865" y="-1.095" size="1" layer="25" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VALUE" x="-20.865" y="-3.095" size="1" layer="27" font="vector" ratio="15" align="top-center"/>
 </element>
-<element name="C125" library="passives" package="CAPC1608" value="100n" x="-18.5" y="0" rot="R270">
+<element name="C125" library="passives" package="CAPC1608" value="100n" x="-18.5" y="0" smashed="yes" rot="R270">
 <attribute name="NAME" x="-17.5" y="0" size="1" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="-19.5" y="0" size="1" layer="27" font="vector" ratio="15" rot="R270" align="top-center"/>
 </element>
-<element name="C122" library="passives" package="CAPC1608" value="100n" x="-31.365" y="-2.095">
+<element name="C122" library="passives" package="CAPC1608" value="100n" x="-31.365" y="-2.095" smashed="yes">
 <attribute name="NAME" x="-31.365" y="-1.095" size="1" layer="25" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VALUE" x="-31.365" y="-3.095" size="1" layer="27" font="vector" ratio="15" align="top-center"/>
 </element>
-<element name="C126" library="passives" package="CAPC1608" value="100n" x="-29" y="0" rot="R270">
+<element name="C126" library="passives" package="CAPC1608" value="100n" x="-29" y="0" smashed="yes" rot="R270">
 <attribute name="NAME" x="-28" y="0" size="1" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="-30" y="0" size="1" layer="27" font="vector" ratio="15" rot="R270" align="top-center"/>
 </element>
-<element name="R135" library="passives" package="RESC1608" value="100R" x="-17.5" y="0" rot="MR90">
+<element name="R135" library="passives" package="RESC1608" value="100R" x="-17.5" y="0" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-16.5" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-18.5" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C129" library="passives" package="CAPC1608" value="470p" x="-28.5" y="-5" rot="MR0">
+<element name="C129" library="passives" package="CAPC1608" value="470p" x="-28.5" y="-5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-28.5" y="-4" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-28.5" y="-6" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R136" library="passives" package="RESC1608" value="100R" x="-28" y="0" rot="MR270">
+<element name="R136" library="passives" package="RESC1608" value="100R" x="-28" y="0" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-29" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="-27" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="C130" library="passives" package="CAPC1608" value="470p" x="-25" y="-5" rot="MR180">
+<element name="C130" library="passives" package="CAPC1608" value="470p" x="-25" y="-5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-25" y="-6" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-25" y="-4" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="U201" library="ic" package="SOT23-5L" value="LP2985-3.1" x="-56" y="-11" rot="MR90">
+<element name="U201" library="ic" package="SOT23-5L" value="LP2985-3.1" x="-56" y="-11" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-53.46" y="-11" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-58.54" y="-11" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C201" library="passives" package="CAPC3216" value="4µ7" x="-60" y="-11.5" rot="MR90">
+<element name="C201" library="passives" package="CAPC3216" value="4µ7" x="-60" y="-11.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-58.5" y="-11.5" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-61.5" y="-11.5" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C208" library="passives" package="CAPC3216" value="4µ7" x="-52" y="-11.5" rot="MR90">
+<element name="C208" library="passives" package="CAPC3216" value="4µ7" x="-52" y="-11.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-50.5" y="-11.5" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-53.5" y="-11.5" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C205" library="passives" package="CAPC2012" value="10n" x="-56" y="-8" rot="MR0">
+<element name="C205" library="passives" package="CAPC2012" value="10n" x="-56" y="-8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-56" y="-7" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-56" y="-9" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R128" library="passives" package="RESC2012" value="2k15" x="-43.5" y="0" rot="MR90">
+<element name="R128" library="passives" package="RESC2012" value="2k15" x="-43.5" y="0" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-42.5" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-44.5" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="U303" library="ic" package="SO8" value="HCPL-063N" x="-41" y="-40" rot="MR0">
+<element name="U303" library="ic" package="SO8" value="HCPL-063N" x="-41" y="-40" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-38" y="-40" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-44" y="-40" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C303" library="passives" package="CAPC1608" value="100n" x="-41" y="-35" rot="MR0">
+<element name="C303" library="passives" package="CAPC1608" value="100n" x="-41" y="-35" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-41" y="-34" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-41" y="-36" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C307" library="passives" package="CAPC1608" value="10n" x="-41" y="-33" rot="MR0">
+<element name="C307" library="passives" package="CAPC1608" value="10n" x="-41" y="-33" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-41" y="-32" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-41" y="-34" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R311" library="passives" package="RESC1608" value="1k" x="-39" y="-28" rot="MR180">
+<element name="R311" library="passives" package="RESC1608" value="1k" x="-39" y="-28" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-39" y="-29" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-39" y="-27" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="R315" library="passives" package="RESC1608" value="1k" x="-43" y="-28" rot="MR0">
+<element name="R315" library="passives" package="RESC1608" value="1k" x="-43" y="-28" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-43" y="-27" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-43" y="-29" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C311" library="passives" package="CAPC1608" value="15p" x="-39" y="-30.5" rot="MR180">
+<element name="C311" library="passives" package="CAPC1608" value="15p" x="-39" y="-30.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-39" y="-31.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-39" y="-29.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="C315" library="passives" package="CAPC1608" value="15p" x="-43" y="-30.5" rot="MR0">
+<element name="C315" library="passives" package="CAPC1608" value="15p" x="-43" y="-30.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-43" y="-29.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-43" y="-31.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="Q303" library="transistors" package="SOT23" value="BC807" x="-38.5" y="-49" rot="MR90">
+<element name="Q303" library="transistors" package="SOT23" value="BC807" x="-38.5" y="-49" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-36.5" y="-49" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-40.5" y="-49" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="Q307" library="transistors" package="SOT23" value="BC807" x="-43" y="-49" rot="MR90">
+<element name="Q307" library="transistors" package="SOT23" value="BC807" x="-43" y="-49" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-41" y="-49" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-45" y="-49" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R303" library="passives" package="RESC1608" value="350R" x="-38.5" y="-45.5" rot="MR180">
+<element name="R303" library="passives" package="RESC1608" value="350R" x="-38.5" y="-45.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-38.5" y="-46.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-38.5" y="-44.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="R307" library="passives" package="RESC1608" value="350R" x="-43" y="-45.5" rot="MR0">
+<element name="R307" library="passives" package="RESC1608" value="350R" x="-43" y="-45.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-43" y="-44.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-43" y="-46.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="U307" library="ic" package="SO8" value="HCPL-063N" x="-77" y="-40" rot="MR180">
+<element name="U307" library="ic" package="SO8" value="HCPL-063N" x="-77" y="-40" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-80" y="-40" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="-74" y="-40" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="C319" library="passives" package="CAPC1608" value="100n" x="-77" y="-47" rot="MR180">
+<element name="C319" library="passives" package="CAPC1608" value="100n" x="-77" y="-47" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-77" y="-48" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-77" y="-46" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="C322" library="passives" package="CAPC1608" value="10n" x="-77" y="-45" rot="MR180">
+<element name="C322" library="passives" package="CAPC1608" value="10n" x="-77" y="-45" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-77" y="-46" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-77" y="-44" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="R325" library="passives" package="RESC1608" value="350R" x="-79" y="-52" rot="MR0">
+<element name="R325" library="passives" package="RESC1608" value="350R" x="-79" y="-52" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-79" y="-51" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-79" y="-53" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R328" library="passives" package="RESC1608" value="350R" x="-75" y="-52" rot="MR180">
+<element name="R328" library="passives" package="RESC1608" value="350R" x="-75" y="-52" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-75" y="-53" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-75" y="-51" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="C325" library="passives" package="CAPC1608" value="15p" x="-79" y="-49.5" rot="MR0">
+<element name="C325" library="passives" package="CAPC1608" value="15p" x="-79" y="-49.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-79" y="-48.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-79" y="-50.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C328" library="passives" package="CAPC1608" value="15p" x="-75" y="-49.5" rot="MR180">
+<element name="C328" library="passives" package="CAPC1608" value="15p" x="-75" y="-49.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-75" y="-50.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-75" y="-48.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="Q311" library="transistors" package="SOT23" value="BC807" x="-79.5" y="-31" rot="MR270">
+<element name="Q311" library="transistors" package="SOT23" value="BC807" x="-79.5" y="-31" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-81.5" y="-31" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="-77.5" y="-31" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="Q314" library="transistors" package="SOT23" value="BC807" x="-75" y="-31" rot="MR270">
+<element name="Q314" library="transistors" package="SOT23" value="BC807" x="-75" y="-31" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-77" y="-31" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="-73" y="-31" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R319" library="passives" package="RESC1608" value="350R" x="-79.5" y="-34.5" rot="MR0">
+<element name="R319" library="passives" package="RESC1608" value="350R" x="-79.5" y="-34.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-79.5" y="-33.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-79.5" y="-35.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R322" library="passives" package="RESC1608" value="350R" x="-75" y="-34.5" rot="MR180">
+<element name="R322" library="passives" package="RESC1608" value="350R" x="-75" y="-34.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-75" y="-35.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-75" y="-33.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="U304" library="ic" package="SO8" value="HCPL-063N" x="-32" y="-40" rot="MR0">
+<element name="U304" library="ic" package="SO8" value="HCPL-063N" x="-32" y="-40" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-29" y="-40" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-35" y="-40" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C304" library="passives" package="CAPC1608" value="100n" x="-32" y="-33" rot="MR0">
+<element name="C304" library="passives" package="CAPC1608" value="100n" x="-32" y="-33" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-32" y="-32" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-32" y="-34" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C308" library="passives" package="CAPC1608" value="10n" x="-32" y="-35" rot="MR0">
+<element name="C308" library="passives" package="CAPC1608" value="10n" x="-32" y="-35" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-32" y="-34" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-32" y="-36" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R312" library="passives" package="RESC1608" value="1k" x="-30" y="-28" rot="MR180">
+<element name="R312" library="passives" package="RESC1608" value="1k" x="-30" y="-28" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-30" y="-29" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-30" y="-27" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="R316" library="passives" package="RESC1608" value="1k" x="-34" y="-28" rot="MR0">
+<element name="R316" library="passives" package="RESC1608" value="1k" x="-34" y="-28" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-34" y="-27" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-34" y="-29" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C312" library="passives" package="CAPC1608" value="15p" x="-30" y="-30.5" rot="MR180">
+<element name="C312" library="passives" package="CAPC1608" value="15p" x="-30" y="-30.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-30" y="-31.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-30" y="-29.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="C316" library="passives" package="CAPC1608" value="15p" x="-34" y="-30.5" rot="MR0">
+<element name="C316" library="passives" package="CAPC1608" value="15p" x="-34" y="-30.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-34" y="-29.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-34" y="-31.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="Q304" library="transistors" package="SOT23" value="BC807" x="-29.5" y="-49" rot="MR90">
+<element name="Q304" library="transistors" package="SOT23" value="BC807" x="-29.5" y="-49" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-27.5" y="-49" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-31.5" y="-49" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="Q308" library="transistors" package="SOT23" value="BC807" x="-34" y="-49" rot="MR90">
+<element name="Q308" library="transistors" package="SOT23" value="BC807" x="-34" y="-49" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-32" y="-49" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-36" y="-49" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R304" library="passives" package="RESC1608" value="350R" x="-29.5" y="-45.5" rot="MR180">
+<element name="R304" library="passives" package="RESC1608" value="350R" x="-29.5" y="-45.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-29.5" y="-46.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-29.5" y="-44.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="R308" library="passives" package="RESC1608" value="350R" x="-34" y="-45.5" rot="MR0">
+<element name="R308" library="passives" package="RESC1608" value="350R" x="-34" y="-45.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-34" y="-44.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-34" y="-46.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="U302" library="ic" package="SO8" value="HCPL-063N" x="-68" y="-40" rot="MR0">
+<element name="U302" library="ic" package="SO8" value="HCPL-063N" x="-68" y="-40" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-65" y="-40" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-71" y="-40" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C302" library="passives" package="CAPC1608" value="100n" x="-68" y="-33" rot="MR0">
+<element name="C302" library="passives" package="CAPC1608" value="100n" x="-68" y="-33" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-68" y="-32" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-68" y="-34" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C306" library="passives" package="CAPC1608" value="10n" x="-68" y="-35" rot="MR0">
+<element name="C306" library="passives" package="CAPC1608" value="10n" x="-68" y="-35" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-68" y="-34" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-68" y="-36" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R310" library="passives" package="RESC1608" value="1k" x="-66" y="-28" rot="MR180">
+<element name="R310" library="passives" package="RESC1608" value="1k" x="-66" y="-28" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-66" y="-29" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-66" y="-27" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="R314" library="passives" package="RESC1608" value="1k" x="-70" y="-28" rot="MR0">
+<element name="R314" library="passives" package="RESC1608" value="1k" x="-70" y="-28" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-70" y="-27" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-70" y="-29" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C310" library="passives" package="CAPC1608" value="15p" x="-66" y="-30.5" rot="MR180">
+<element name="C310" library="passives" package="CAPC1608" value="15p" x="-66" y="-30.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-66" y="-31.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-66" y="-29.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="C314" library="passives" package="CAPC1608" value="15p" x="-70" y="-30.5" rot="MR0">
+<element name="C314" library="passives" package="CAPC1608" value="15p" x="-70" y="-30.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-70" y="-29.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-70" y="-31.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="Q302" library="transistors" package="SOT23" value="BC807" x="-65.5" y="-49" rot="MR90">
+<element name="Q302" library="transistors" package="SOT23" value="BC807" x="-65.5" y="-49" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-63.5" y="-49" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-67.5" y="-49" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="Q306" library="transistors" package="SOT23" value="BC807" x="-70" y="-49" rot="MR90">
+<element name="Q306" library="transistors" package="SOT23" value="BC807" x="-70" y="-49" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-68" y="-49" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-72" y="-49" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R302" library="passives" package="RESC1608" value="350R" x="-65.5" y="-45.5" rot="MR180">
+<element name="R302" library="passives" package="RESC1608" value="350R" x="-65.5" y="-45.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-65.5" y="-46.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-65.5" y="-44.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="R306" library="passives" package="RESC1608" value="350R" x="-70" y="-45.5" rot="MR0">
+<element name="R306" library="passives" package="RESC1608" value="350R" x="-70" y="-45.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-70" y="-44.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-70" y="-46.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R114" library="passives" package="RESC3216" value="2R" x="59" y="0" rot="MR90">
+<element name="R114" library="passives" package="RESC3216" value="2R" x="59" y="0" smashed="yes" rot="MR90">
 <attribute name="NAME" x="60.5" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="57.5" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R120" library="passives" package="RESC3216" value="2R" x="61.5" y="0" rot="MR90">
+<element name="R120" library="passives" package="RESC3216" value="2R" x="61.5" y="0" smashed="yes" rot="MR90">
 <attribute name="NAME" x="63" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="60" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R125" library="passives" package="RESC3216" value="2R" x="68.5" y="5.5" rot="MR0">
+<element name="R125" library="passives" package="RESC3216" value="2R" x="68.5" y="5.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="68.5" y="7" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="68.5" y="4" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R122" library="passives" package="RESC6332" value="0R01" x="78" y="23" rot="MR0">
+<element name="R122" library="passives" package="RESC6332" value="0R01" x="78" y="23" smashed="yes" rot="MR0">
 <attribute name="NAME" x="80.54" y="24.905" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="80.54" y="19.825" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="Q120" library="transistors" package="TO-264P-H-PADUP" value="IXTK102N65X2" x="50" y="24.5" locked="yes" rot="R180"/>
-<element name="Q110" library="transistors" package="POWERPAK-SO-8" value="SIRC10DP" x="67" y="19.5" rot="MR0">
+<element name="Q120" library="transistors" package="TO-264P-H-PADUP" value="IXTK102N65X2" x="50" y="24.5" locked="yes" smashed="yes" rot="R180"/>
+<element name="Q110" library="transistors" package="POWERPAK-SO-8" value="SIRC10DP" x="67" y="19.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="67" y="22.3" size="1" layer="26" font="vector" ratio="12" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="67" y="16.7" size="1" layer="28" font="vector" ratio="12" rot="MR0" align="top-center"/>
 </element>
-<element name="Q114" library="transistors" package="POWERPAK-SO-8" value="SIRC10DP" x="67" y="12.5" rot="MR0">
+<element name="Q114" library="transistors" package="POWERPAK-SO-8" value="SIRC10DP" x="67" y="12.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="67" y="15.3" size="1" layer="26" font="vector" ratio="12" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="67" y="9.7" size="1" layer="28" font="vector" ratio="12" rot="MR0" align="top-center"/>
 </element>
-<element name="R126" library="passives" package="RESC6332" value="0R01" x="78" y="9" rot="MR0">
+<element name="R126" library="passives" package="RESC6332" value="0R01" x="78" y="9" smashed="yes" rot="MR0">
 <attribute name="NAME" x="80.54" y="10.905" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="80.54" y="5.825" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="Q115" library="transistors" package="SOT23" value="BC817" x="53" y="-5" rot="MR180">
+<element name="Q115" library="transistors" package="SOT23" value="BC817" x="53" y="-5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="53" y="-7" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="53" y="-3" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="Q111" library="transistors" package="SOT23" value="BC817" x="48" y="0" rot="MR180">
+<element name="Q111" library="transistors" package="SOT23" value="BC817" x="48" y="0" smashed="yes" rot="MR180">
 <attribute name="NAME" x="48" y="-2" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="48" y="2" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="Q116" library="transistors" package="SOT23" value="BC807" x="53" y="0" rot="MR180">
+<element name="Q116" library="transistors" package="SOT23" value="BC807" x="53" y="0" smashed="yes" rot="MR180">
 <attribute name="NAME" x="53" y="-2" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="53" y="2" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="R115" library="passives" package="RESC1608" value="100k" x="44" y="-5" rot="MR270">
+<element name="R115" library="passives" package="RESC1608" value="100k" x="44" y="-5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="43" y="-5" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="45" y="-5" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R117" library="passives" package="RESC1608" value="1k" x="46.5" y="-5" rot="MR270">
+<element name="R117" library="passives" package="RESC1608" value="1k" x="46.5" y="-5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="45.5" y="-5" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="47.5" y="-5" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R111" library="passives" package="RESC1608" value="1k" x="44" y="0" rot="MR90">
+<element name="R111" library="passives" package="RESC1608" value="1k" x="44" y="0" smashed="yes" rot="MR90">
 <attribute name="NAME" x="45" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="43" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C119" library="passives" package="CAPC1608" value="100n" x="49" y="-5" rot="MR90">
+<element name="C119" library="passives" package="CAPC1608" value="100n" x="49" y="-5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="50" y="-5" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="48" y="-5" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R127" library="passives" package="RESC2012" value="2k15" x="56.5" y="0" rot="MR270">
+<element name="R127" library="passives" package="RESC2012" value="2k15" x="56.5" y="0" smashed="yes" rot="MR270">
 <attribute name="NAME" x="55.5" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="57.5" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="PS201" library="modules" package="RECOM-SIP7" value="RFMM-0505S" x="-12.27" y="-57" rot="R180">
+<element name="PS201" library="modules" package="RECOM-SIP7" value="RFMM-0505S" x="-12.27" y="-57" smashed="yes" rot="R180">
 <attribute name="NAME" x="-12.27" y="-61" size="1" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="-12.27" y="-57" size="1" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="D101" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAT54S" x="-15" y="-5" rot="MR180">
+<element name="D101" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAT54S" x="-15" y="-5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-16.905" y="-6.905" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="-16.905" y="-1.825" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="D102" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAT54S" x="-38.5" y="-5" rot="MR180">
+<element name="D102" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAT54S" x="-38.5" y="-5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-40.405" y="-6.905" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="-40.405" y="-1.825" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="U102" library="ic" package="SO24W" value="AD420" x="29" y="-12" rot="MR0">
+<element name="U102" library="ic" package="SO24W" value="AD420" x="29" y="-12" smashed="yes" rot="MR0">
 <attribute name="NAME" x="37.5" y="-12" size="1.5" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="29" y="-12" size="1.5" layer="28" font="vector" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="C108" library="passives" package="CAPC2012" value="10n" x="35" y="-4" rot="MR0">
+<element name="C108" library="passives" package="CAPC2012" value="10n" x="35" y="-4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="35" y="-3" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="35" y="-5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C110" library="passives" package="CAPC2012" value="10n" x="30.5" y="-4" rot="MR0">
+<element name="C110" library="passives" package="CAPC2012" value="10n" x="30.5" y="-4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="30.5" y="-3" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="30.5" y="-5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C104" library="passives" package="CAPC1608" value="100n" x="29" y="-15" rot="R180">
+<element name="C104" library="passives" package="CAPC1608" value="100n" x="29" y="-15" smashed="yes" rot="R180">
 <attribute name="NAME" x="29" y="-16" size="1" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="29" y="-14" size="1" layer="27" font="vector" ratio="15" rot="R180" align="top-center"/>
 </element>
-<element name="C102" library="passives" package="CAPC3216" value="4µ7" x="29" y="-12.75" rot="R180">
+<element name="C102" library="passives" package="CAPC3216" value="4µ7" x="29" y="-12.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="29" y="-14.25" size="1" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="29" y="-11.25" size="1" layer="27" font="vector" ratio="15" rot="R180" align="top-center"/>
 </element>
-<element name="C106" library="passives" package="CAPC1608" value="100n" x="29" y="-10.5" rot="R180">
+<element name="C106" library="passives" package="CAPC1608" value="100n" x="29" y="-10.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="29" y="-11.5" size="1" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="29" y="-9.5" size="1" layer="27" font="vector" ratio="15" rot="R180" align="top-center"/>
 </element>
-<element name="C113" library="passives" package="CAPC1608" value="100n" x="25" y="3" rot="R180">
+<element name="C113" library="passives" package="CAPC1608" value="100n" x="25" y="3" smashed="yes" rot="R180">
 <attribute name="NAME" x="25" y="2" size="1" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="25" y="4" size="1" layer="27" font="vector" ratio="15" rot="R180" align="top-center"/>
 </element>
-<element name="C114" library="passives" package="CAPC1608" value="100n" x="25" y="-3" rot="R180">
+<element name="C114" library="passives" package="CAPC1608" value="100n" x="25" y="-3" smashed="yes" rot="R180">
 <attribute name="NAME" x="25" y="-4" size="1" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="25" y="-2" size="1" layer="27" font="vector" ratio="15" rot="R180" align="top-center"/>
 </element>
-<element name="U107" library="ic" package="SO8" value="AD620" x="78.5" y="0" rot="MR180">
+<element name="U107" library="ic" package="SO8" value="AD620" x="78.5" y="0" smashed="yes" rot="MR180">
 <attribute name="NAME" x="75.5" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="81.5" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R133" library="passives" package="RESC2012" value="2k15" x="74.5" y="0" rot="MR90">
+<element name="R133" library="passives" package="RESC2012" value="2k15" x="74.5" y="0" smashed="yes" rot="MR90">
 <attribute name="NAME" x="75.5" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="73.5" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="U110" library="ic" package="SO8" value="LTC1865L" x="73.25" y="-10" rot="MR180">
+<element name="U110" library="ic" package="SO8" value="LTC1865L" x="73.25" y="-10" smashed="yes" rot="MR180">
 <attribute name="NAME" x="70.25" y="-10" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="76.25" y="-10" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="C134" library="passives" package="CAPC3216" value="4µ7" x="73.25" y="-7.5">
+<element name="C134" library="passives" package="CAPC3216" value="4µ7" x="73.25" y="-7.5" smashed="yes">
 <attribute name="NAME" x="73.25" y="-6" size="1" layer="25" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VALUE" x="73.25" y="-9" size="1" layer="27" font="vector" ratio="15" align="top-center"/>
 </element>
-<element name="C136" library="passives" package="CAPC1608" value="100n" x="73.25" y="-10">
+<element name="C136" library="passives" package="CAPC1608" value="100n" x="73.25" y="-10" smashed="yes">
 <attribute name="NAME" x="73.25" y="-9" size="1" layer="25" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VALUE" x="73.25" y="-11" size="1" layer="27" font="vector" ratio="15" align="top-center"/>
 </element>
-<element name="U108" library="ic" package="SO8" value="AD620" x="68" y="0" rot="MR180">
+<element name="U108" library="ic" package="SO8" value="AD620" x="68" y="0" smashed="yes" rot="MR180">
 <attribute name="NAME" x="65" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="71" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R134" library="passives" package="RESC2012" value="2k15" x="64" y="0" rot="MR90">
+<element name="R134" library="passives" package="RESC2012" value="2k15" x="64" y="0" smashed="yes" rot="MR90">
 <attribute name="NAME" x="65" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="63" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C123" library="passives" package="CAPC1608" value="100n" x="79.135" y="-2.095">
+<element name="C123" library="passives" package="CAPC1608" value="100n" x="79.135" y="-2.095" smashed="yes">
 <attribute name="NAME" x="79.135" y="-1.095" size="1" layer="25" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VALUE" x="79.135" y="-3.095" size="1" layer="27" font="vector" ratio="15" align="top-center"/>
 </element>
-<element name="C127" library="passives" package="CAPC1608" value="100n" x="81.5" y="0" rot="R270">
+<element name="C127" library="passives" package="CAPC1608" value="100n" x="81.5" y="0" smashed="yes" rot="R270">
 <attribute name="NAME" x="82.5" y="0" size="1" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="80.5" y="0" size="1" layer="27" font="vector" ratio="15" rot="R270" align="top-center"/>
 </element>
-<element name="C124" library="passives" package="CAPC1608" value="100n" x="68.635" y="-2.095">
+<element name="C124" library="passives" package="CAPC1608" value="100n" x="68.635" y="-2.095" smashed="yes">
 <attribute name="NAME" x="68.635" y="-1.095" size="1" layer="25" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VALUE" x="68.635" y="-3.095" size="1" layer="27" font="vector" ratio="15" align="top-center"/>
 </element>
-<element name="C128" library="passives" package="CAPC1608" value="100n" x="71" y="0" rot="R270">
+<element name="C128" library="passives" package="CAPC1608" value="100n" x="71" y="0" smashed="yes" rot="R270">
 <attribute name="NAME" x="72" y="0" size="1" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="70" y="0" size="1" layer="27" font="vector" ratio="15" rot="R270" align="top-center"/>
 </element>
-<element name="R137" library="passives" package="RESC1608" value="100R" x="82.5" y="0" rot="MR90">
+<element name="R137" library="passives" package="RESC1608" value="100R" x="82.5" y="0" smashed="yes" rot="MR90">
 <attribute name="NAME" x="83.5" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="81.5" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C131" library="passives" package="CAPC1608" value="470p" x="71.5" y="-5" rot="MR0">
+<element name="C131" library="passives" package="CAPC1608" value="470p" x="71.5" y="-5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="71.5" y="-4" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="71.5" y="-6" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R138" library="passives" package="RESC1608" value="100R" x="72" y="0" rot="MR270">
+<element name="R138" library="passives" package="RESC1608" value="100R" x="72" y="0" smashed="yes" rot="MR270">
 <attribute name="NAME" x="71" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="73" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="C132" library="passives" package="CAPC1608" value="470p" x="75" y="-5" rot="MR180">
+<element name="C132" library="passives" package="CAPC1608" value="470p" x="75" y="-5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="75" y="-6" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="75" y="-4" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="D103" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAT54S" x="85" y="-5" rot="MR180">
+<element name="D103" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAT54S" x="85" y="-5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="83.095" y="-6.905" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="83.095" y="-1.825" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="D104" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAT54S" x="61.5" y="-5" rot="MR180">
+<element name="D104" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAT54S" x="61.5" y="-5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="59.595" y="-6.905" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="59.595" y="-1.825" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="J202" library="con-jack" library_urn="urn:adsk.eagle:library:154" package="SPC4078" package3d_urn="urn:adsk.eagle:package:7494/1" value="+12V" x="113" y="-45" rot="R180">
+<element name="J202" library="con-jack" library_urn="urn:adsk.eagle:library:154" package="SPC4078" package3d_urn="urn:adsk.eagle:package:7494/1" value="+12V" x="113" y="-45" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="113" y="-45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="113" y="-45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="123.16" y="-50.08" size="1.27" layer="25" rot="R180"/>
@@ -2285,535 +2285,535 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="113" y="-45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="123.16" y="-38.65" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="J204" library="mechanical" package="MOLEX_47053-1000" value="FAN_MOLEX4PIN" x="17" y="-59"/>
-<element name="J205" library="mechanical" package="MOLEX_47053-1000" value="FAN_MOLEX4PIN" x="17" y="-50"/>
-<element name="U$6" library="mechanical" package="M4" value="" x="-97" y="42" locked="yes"/>
-<element name="U$7" library="mechanical" package="M4" value="" x="117" y="42" locked="yes"/>
-<element name="U$8" library="mechanical" package="M4" value="" x="117" y="-57" locked="yes"/>
-<element name="U$9" library="mechanical" package="M4" value="" x="-97" y="-57" locked="yes"/>
-<element name="R129" library="passives" package="RESC6332" value="0R01" x="-22" y="9" rot="MR0">
+<element name="J204" library="mechanical" package="MOLEX_47053-1000" value="FAN_MOLEX4PIN" x="17" y="-59" smashed="yes"/>
+<element name="J205" library="mechanical" package="MOLEX_47053-1000" value="FAN_MOLEX4PIN" x="17" y="-50" smashed="yes"/>
+<element name="U$6" library="mechanical" package="M4" value="" x="-97" y="42" locked="yes" smashed="yes"/>
+<element name="U$7" library="mechanical" package="M4" value="" x="117" y="42" locked="yes" smashed="yes"/>
+<element name="U$8" library="mechanical" package="M4" value="" x="117" y="-57" locked="yes" smashed="yes"/>
+<element name="U$9" library="mechanical" package="M4" value="" x="-97" y="-57" locked="yes" smashed="yes"/>
+<element name="R129" library="passives" package="RESC6332" value="0R01" x="-22" y="9" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-19.46" y="10.905" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="-19.46" y="5.825" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R130" library="passives" package="RESC6332" value="0R01" x="78" y="16" rot="MR0">
+<element name="R130" library="passives" package="RESC6332" value="0R01" x="78" y="16" smashed="yes" rot="MR0">
 <attribute name="NAME" x="80.54" y="17.905" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="80.54" y="12.825" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="C211" library="passives" package="CAPC1608" value="470n" x="-2" y="-4" rot="MR0">
+<element name="C211" library="passives" package="CAPC1608" value="470n" x="-2" y="-4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-2" y="-3" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-2" y="-5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C214" library="passives" package="CAPC1608" value="100n" x="-3.5" y="2" rot="MR90">
+<element name="C214" library="passives" package="CAPC1608" value="100n" x="-3.5" y="2" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-2.5" y="2" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-4.5" y="2" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C215" library="passives" package="CAPC1608" value="470n" x="2" y="-4" rot="MR180">
+<element name="C215" library="passives" package="CAPC1608" value="470n" x="2" y="-4" smashed="yes" rot="MR180">
 <attribute name="NAME" x="2" y="-5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="2" y="-3" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="U207" library="ic" package="SO8" value="LTC1865L" x="0" y="-10" rot="MR180">
+<element name="U207" library="ic" package="SO8" value="LTC1865L" x="0" y="-10" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-3" y="-10" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="3" y="-10" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="C217" library="passives" package="CAPC3216" value="4µ7" x="0" y="-7.5">
+<element name="C217" library="passives" package="CAPC3216" value="4µ7" x="0" y="-7.5" smashed="yes">
 <attribute name="NAME" x="0" y="-6" size="1" layer="25" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VALUE" x="0" y="-9" size="1" layer="27" font="vector" ratio="15" align="top-center"/>
 </element>
-<element name="C220" library="passives" package="CAPC1608" value="100n" x="0" y="-10">
+<element name="C220" library="passives" package="CAPC1608" value="100n" x="0" y="-10" smashed="yes">
 <attribute name="NAME" x="0" y="-9" size="1" layer="25" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VALUE" x="0" y="-11" size="1" layer="27" font="vector" ratio="15" align="top-center"/>
 </element>
-<element name="U208" library="ic" package="SO8" value="LTC1865L" x="83" y="-16" rot="MR270">
+<element name="U208" library="ic" package="SO8" value="LTC1865L" x="83" y="-16" smashed="yes" rot="MR270">
 <attribute name="NAME" x="83" y="-13" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="83" y="-19" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C224" library="passives" package="CAPC3216" value="4µ7" x="85.5" y="-16" rot="R270">
+<element name="C224" library="passives" package="CAPC3216" value="4µ7" x="85.5" y="-16" smashed="yes" rot="R270">
 <attribute name="NAME" x="87" y="-16" size="1" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="84" y="-16" size="1" layer="27" font="vector" ratio="15" rot="R270" align="top-center"/>
 </element>
-<element name="C228" library="passives" package="CAPC1608" value="100n" x="83" y="-16" rot="R270">
+<element name="C228" library="passives" package="CAPC1608" value="100n" x="83" y="-16" smashed="yes" rot="R270">
 <attribute name="NAME" x="84" y="-16" size="1" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="82" y="-16" size="1" layer="27" font="vector" ratio="15" rot="R270" align="top-center"/>
 </element>
-<element name="U204" library="ic" package="SO8" value="AD620" x="95" y="-16" rot="MR270">
+<element name="U204" library="ic" package="SO8" value="AD620" x="95" y="-16" smashed="yes" rot="MR270">
 <attribute name="NAME" x="95" y="-13" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="95" y="-19" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R208" library="passives" package="RESC2012" value="2k15" x="95" y="-12" rot="MR180">
+<element name="R208" library="passives" package="RESC2012" value="2k15" x="95" y="-12" smashed="yes" rot="MR180">
 <attribute name="NAME" x="95" y="-13" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="95" y="-11" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="C216" library="passives" package="CAPC1608" value="100n" x="92.905" y="-16.635" rot="R270">
+<element name="C216" library="passives" package="CAPC1608" value="100n" x="92.905" y="-16.635" smashed="yes" rot="R270">
 <attribute name="NAME" x="93.905" y="-16.635" size="1" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="91.905" y="-16.635" size="1" layer="27" font="vector" ratio="15" rot="R270" align="top-center"/>
 </element>
-<element name="C219" library="passives" package="CAPC1608" value="100n" x="95" y="-19" rot="R180">
+<element name="C219" library="passives" package="CAPC1608" value="100n" x="95" y="-19" smashed="yes" rot="R180">
 <attribute name="NAME" x="95" y="-20" size="1" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="95" y="-18" size="1" layer="27" font="vector" ratio="15" rot="R180" align="top-center"/>
 </element>
-<element name="R206" library="passives" package="RESC3216" value="2M" x="105" y="-16" rot="MR270">
+<element name="R206" library="passives" package="RESC3216" value="2M" x="105" y="-16" smashed="yes" rot="MR270">
 <attribute name="NAME" x="103.5" y="-16" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="106.5" y="-16" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R207" library="passives" package="RESC2012" value="2k15" x="105" y="-11" rot="MR90">
+<element name="R207" library="passives" package="RESC2012" value="2k15" x="105" y="-11" smashed="yes" rot="MR90">
 <attribute name="NAME" x="106" y="-11" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="104" y="-11" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R203" library="passives" package="RESC3216" value="2M" x="105" y="-27" rot="MR90">
+<element name="R203" library="passives" package="RESC3216" value="2M" x="105" y="-27" smashed="yes" rot="MR90">
 <attribute name="NAME" x="106.5" y="-27" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="103.5" y="-27" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R204" library="passives" package="RESC3216" value="2M" x="111" y="-27" rot="MR270">
+<element name="R204" library="passives" package="RESC3216" value="2M" x="111" y="-27" smashed="yes" rot="MR270">
 <attribute name="NAME" x="109.5" y="-27" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="112.5" y="-27" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R201" library="passives" package="RESC3216" value="2M" x="111" y="-21.5" rot="MR270">
+<element name="R201" library="passives" package="RESC3216" value="2M" x="111" y="-21.5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="109.5" y="-21.5" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="112.5" y="-21.5" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R209" library="passives" package="RESC1608" value="100R" x="89" y="-15.5" rot="MR0">
+<element name="R209" library="passives" package="RESC1608" value="100R" x="89" y="-15.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="89" y="-14.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="89" y="-16.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C218" library="passives" package="CAPC1608" value="470p" x="89" y="-18" rot="MR180">
+<element name="C218" library="passives" package="CAPC1608" value="470p" x="89" y="-18" smashed="yes" rot="MR180">
 <attribute name="NAME" x="89" y="-19" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="89" y="-17" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="R205" library="passives" package="RESC3216" value="2M" x="105" y="-21.5" rot="MR270">
+<element name="R205" library="passives" package="RESC3216" value="2M" x="105" y="-21.5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="103.5" y="-21.5" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="106.5" y="-21.5" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R210" library="passives" package="RESC1608" value="10k" x="89" y="-20.5" rot="MR0">
+<element name="R210" library="passives" package="RESC1608" value="10k" x="89" y="-20.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="89" y="-19.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="89" y="-21.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="MOV201" library="passives" package="DISK_9.5MM" value="416NR10D" x="114" y="-3" rot="R270">
+<element name="MOV201" library="passives" package="DISK_9.5MM" value="416NR10D" x="114" y="-3" smashed="yes" rot="R270">
 <attribute name="NAME" x="117" y="-3" size="1" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="114" y="-3" size="1" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="MOV202" library="passives" package="DISK_9.5MM" value="416NR10D" x="121" y="-3" rot="R90">
+<element name="MOV202" library="passives" package="DISK_9.5MM" value="416NR10D" x="121" y="-3" smashed="yes" rot="R90">
 <attribute name="NAME" x="118" y="-3" size="1" layer="25" font="vector" ratio="15" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="121" y="-3" size="1" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="U209" library="ic" package="SO16W" value="MAX743" x="50" y="-33" rot="MR180">
+<element name="U209" library="ic" package="SO16W" value="MAX743" x="50" y="-33" smashed="yes" rot="MR180">
 <attribute name="NAME" x="44" y="-33" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="50" y="-33" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="C226" library="passives" package="CAPC2012" value="10n" x="47.5" y="-24" rot="MR270">
+<element name="C226" library="passives" package="CAPC2012" value="10n" x="47.5" y="-24" smashed="yes" rot="MR270">
 <attribute name="NAME" x="46.5" y="-24" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="48.5" y="-24" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="C229" library="passives" package="CAPC1608" value="100n" x="47.46" y="-28.5">
+<element name="C229" library="passives" package="CAPC1608" value="100n" x="47.46" y="-28.5" smashed="yes">
 <attribute name="NAME" x="47.46" y="-27.5" size="1" layer="25" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VALUE" x="47.46" y="-29.5" size="1" layer="27" font="vector" ratio="15" align="top-center"/>
 </element>
-<element name="C227" library="passives" package="CAPCP6032" value="10µ" x="58" y="-33" rot="MR270">
+<element name="C227" library="passives" package="CAPCP6032" value="10µ" x="58" y="-33" smashed="yes" rot="MR270">
 <attribute name="NAME" x="56" y="-33" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="60" y="-33" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="C230" library="passives" package="CAPC1608" value="470n" x="50" y="-24" rot="MR90">
+<element name="C230" library="passives" package="CAPC1608" value="470n" x="50" y="-24" smashed="yes" rot="MR90">
 <attribute name="NAME" x="51" y="-24" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="49" y="-24" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C231" library="passives" package="CAPC2012" value="10n" x="52.5" y="-24" rot="MR90">
+<element name="C231" library="passives" package="CAPC2012" value="10n" x="52.5" y="-24" smashed="yes" rot="MR90">
 <attribute name="NAME" x="53.5" y="-24" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="51.5" y="-24" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C223" library="passives" package="CAPCP7343" value="47µ" x="50" y="-45" rot="MR270">
+<element name="C223" library="passives" package="CAPCP7343" value="47µ" x="50" y="-45" smashed="yes" rot="MR270">
 <attribute name="NAME" x="47" y="-45" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="53" y="-45" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="L201" library="passives" package="MSS1260" value="100µ" x="38" y="-45" rot="MR180">
+<element name="L201" library="passives" package="MSS1260" value="100µ" x="38" y="-45" smashed="yes" rot="MR180">
 <attribute name="NAME" x="38" y="-52" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="38" y="-45" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="center"/>
 </element>
-<element name="D202" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-7.6" package3d_urn="urn:adsk.eagle:package:43421/1" value="1N5817-B" x="46" y="-45" rot="MR90">
+<element name="D202" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-7.6" package3d_urn="urn:adsk.eagle:package:43421/1" value="1N5817-B" x="46" y="-45" smashed="yes" rot="MR90">
 <attribute name="NAME" x="47.651" y="-47.032" size="1.27" layer="26" ratio="10" rot="MR90"/>
 <attribute name="VALUE" x="43.079" y="-47.032" size="1.27" layer="28" ratio="10" rot="MR90"/>
 </element>
-<element name="D203" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-7.6" package3d_urn="urn:adsk.eagle:package:43421/1" value="1N5817-B" x="54" y="-45" rot="MR270">
+<element name="D203" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-7.6" package3d_urn="urn:adsk.eagle:package:43421/1" value="1N5817-B" x="54" y="-45" smashed="yes" rot="MR270">
 <attribute name="NAME" x="52.349" y="-42.968" size="1.27" layer="26" ratio="10" rot="MR270"/>
 <attribute name="VALUE" x="56.921" y="-42.968" size="1.27" layer="28" ratio="10" rot="MR270"/>
 </element>
-<element name="L202" library="passives" package="MSS1260" value="100µ" x="62" y="-45" rot="MR0">
+<element name="L202" library="passives" package="MSS1260" value="100µ" x="62" y="-45" smashed="yes" rot="MR0">
 <attribute name="NAME" x="62" y="-38" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="62" y="-45" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="center"/>
 </element>
-<element name="C234" library="passives" package="CAPPRD500W60D1000H" value="220µ" x="44" y="-57" rot="R180">
+<element name="C234" library="passives" package="CAPPRD500W60D1000H" value="220µ" x="44" y="-57" smashed="yes" rot="R180">
 <attribute name="NAME" x="44" y="-62.5" size="1" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="44" y="-51.5" size="1" layer="27" font="vector" ratio="15" rot="R180" align="top-center"/>
 </element>
-<element name="C235" library="passives" package="CAPPRD500W60D1000H" value="220µ" x="56" y="-57" rot="R180">
+<element name="C235" library="passives" package="CAPPRD500W60D1000H" value="220µ" x="56" y="-57" smashed="yes" rot="R180">
 <attribute name="NAME" x="56" y="-62.5" size="1" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="56" y="-51.5" size="1" layer="27" font="vector" ratio="15" rot="R180" align="top-center"/>
 </element>
-<element name="J203" library="mechanical" package="HEAD_MALE_1X16" value="CTRL" x="-50" y="-58" locked="yes">
+<element name="J203" library="mechanical" package="HEAD_MALE_1X16" value="CTRL" x="-50" y="-58" locked="yes" smashed="yes">
 <attribute name="NAME" x="-50" y="-56" size="1" layer="25" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VALUE" x="-50" y="-60" size="1" layer="27" font="vector" ratio="15" align="top-center"/>
 </element>
-<element name="U205" library="ic" package="TO-220AB-3-BR" value="78L05_TO-220AB-3-BR" x="75" y="-60" rot="MR0">
+<element name="U205" library="ic" package="TO-220AB-3-BR" value="78L05_TO-220AB-3-BR" x="75" y="-60" smashed="yes" rot="MR0">
 <attribute name="NAME" x="75" y="-38.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="75" y="-61.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C212" library="passives" package="CAPC1608" value="470n" x="80" y="-60" rot="MR90">
+<element name="C212" library="passives" package="CAPC1608" value="470n" x="80" y="-60" smashed="yes" rot="MR90">
 <attribute name="NAME" x="81" y="-60" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="79" y="-60" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C221" library="passives" package="CAPC1608" value="100n" x="70" y="-60" rot="MR90">
+<element name="C221" library="passives" package="CAPC1608" value="100n" x="70" y="-60" smashed="yes" rot="MR90">
 <attribute name="NAME" x="71" y="-60" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="69" y="-60" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="U206" library="ic" package="TO-220AB-3-BR" value="78L05_TO-220AB-3-BR" x="141" y="-60" rot="MR0">
+<element name="U206" library="ic" package="TO-220AB-3-BR" value="78L05_TO-220AB-3-BR" x="141" y="-60" smashed="yes" rot="MR0">
 <attribute name="NAME" x="141" y="-38.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="141" y="-61.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C213" library="passives" package="CAPC1608" value="470n" x="146" y="-60" rot="MR90">
+<element name="C213" library="passives" package="CAPC1608" value="470n" x="146" y="-60" smashed="yes" rot="MR90">
 <attribute name="NAME" x="147" y="-60" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="145" y="-60" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C222" library="passives" package="CAPC1608" value="100n" x="136" y="-60" rot="MR90">
+<element name="C222" library="passives" package="CAPC1608" value="100n" x="136" y="-60" smashed="yes" rot="MR90">
 <attribute name="NAME" x="137" y="-60" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="135" y="-60" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="U301" library="ic" package="SO8" value="HCPL-063N" x="-50" y="-40" rot="MR0">
+<element name="U301" library="ic" package="SO8" value="HCPL-063N" x="-50" y="-40" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-47" y="-40" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-53" y="-40" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C301" library="passives" package="CAPC1608" value="100n" x="-50" y="-33" rot="MR0">
+<element name="C301" library="passives" package="CAPC1608" value="100n" x="-50" y="-33" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-50" y="-32" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-50" y="-34" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C305" library="passives" package="CAPC1608" value="10n" x="-50" y="-35" rot="MR0">
+<element name="C305" library="passives" package="CAPC1608" value="10n" x="-50" y="-35" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-50" y="-34" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-50" y="-36" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R309" library="passives" package="RESC1608" value="350R" x="-48" y="-28" rot="MR180">
+<element name="R309" library="passives" package="RESC1608" value="350R" x="-48" y="-28" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-48" y="-29" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-48" y="-27" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="R313" library="passives" package="RESC1608" value="350R" x="-52" y="-28" rot="MR0">
+<element name="R313" library="passives" package="RESC1608" value="350R" x="-52" y="-28" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-52" y="-27" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-52" y="-29" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C309" library="passives" package="CAPC1608" value="15p" x="-48" y="-30.5" rot="MR180">
+<element name="C309" library="passives" package="CAPC1608" value="15p" x="-48" y="-30.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-48" y="-31.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-48" y="-29.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="C313" library="passives" package="CAPC1608" value="15p" x="-52" y="-30.5" rot="MR0">
+<element name="C313" library="passives" package="CAPC1608" value="15p" x="-52" y="-30.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-52" y="-29.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-52" y="-31.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="Q301" library="transistors" package="SOT23" value="BC807" x="-47.5" y="-49" rot="MR90">
+<element name="Q301" library="transistors" package="SOT23" value="BC807" x="-47.5" y="-49" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-45.5" y="-49" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-49.5" y="-49" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="Q305" library="transistors" package="SOT23" value="BC807" x="-52" y="-49" rot="MR90">
+<element name="Q305" library="transistors" package="SOT23" value="BC807" x="-52" y="-49" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-50" y="-49" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-54" y="-49" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R301" library="passives" package="RESC1608" value="350R" x="-47.5" y="-45.5" rot="MR180">
+<element name="R301" library="passives" package="RESC1608" value="350R" x="-47.5" y="-45.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-47.5" y="-46.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-47.5" y="-44.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="R305" library="passives" package="RESC1608" value="350R" x="-52" y="-45.5" rot="MR0">
+<element name="R305" library="passives" package="RESC1608" value="350R" x="-52" y="-45.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-52" y="-44.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-52" y="-46.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="U305" library="ic" package="SO8" value="HCPL-063N" x="-23" y="-40" rot="MR0">
+<element name="U305" library="ic" package="SO8" value="HCPL-063N" x="-23" y="-40" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-20" y="-40" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-26" y="-40" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C317" library="passives" package="CAPC1608" value="100n" x="-23" y="-33" rot="MR0">
+<element name="C317" library="passives" package="CAPC1608" value="100n" x="-23" y="-33" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-23" y="-32" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-23" y="-34" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C320" library="passives" package="CAPC1608" value="10n" x="-23" y="-35" rot="MR0">
+<element name="C320" library="passives" package="CAPC1608" value="10n" x="-23" y="-35" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-23" y="-34" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-23" y="-36" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R323" library="passives" package="RESC1608" value="350R" x="-21" y="-28" rot="MR180">
+<element name="R323" library="passives" package="RESC1608" value="350R" x="-21" y="-28" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-21" y="-29" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-21" y="-27" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="R326" library="passives" package="RESC1608" value="350R" x="-25" y="-28" rot="MR0">
+<element name="R326" library="passives" package="RESC1608" value="350R" x="-25" y="-28" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-25" y="-27" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-25" y="-29" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C323" library="passives" package="CAPC1608" value="15p" x="-21" y="-30.5" rot="MR180">
+<element name="C323" library="passives" package="CAPC1608" value="15p" x="-21" y="-30.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-21" y="-31.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-21" y="-29.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="C326" library="passives" package="CAPC1608" value="15p" x="-25" y="-30.5" rot="MR0">
+<element name="C326" library="passives" package="CAPC1608" value="15p" x="-25" y="-30.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-25" y="-29.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-25" y="-31.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="Q309" library="transistors" package="SOT23" value="BC807" x="-20.5" y="-49" rot="MR90">
+<element name="Q309" library="transistors" package="SOT23" value="BC807" x="-20.5" y="-49" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-18.5" y="-49" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-22.5" y="-49" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="Q312" library="transistors" package="SOT23" value="BC807" x="-25" y="-49" rot="MR90">
+<element name="Q312" library="transistors" package="SOT23" value="BC807" x="-25" y="-49" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-23" y="-49" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-27" y="-49" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R317" library="passives" package="RESC1608" value="350R" x="-20.5" y="-45.5" rot="MR180">
+<element name="R317" library="passives" package="RESC1608" value="350R" x="-20.5" y="-45.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-20.5" y="-46.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-20.5" y="-44.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="R320" library="passives" package="RESC1608" value="350R" x="-25" y="-45.5" rot="MR0">
+<element name="R320" library="passives" package="RESC1608" value="350R" x="-25" y="-45.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-25" y="-44.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-25" y="-46.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="U306" library="ic" package="SO8" value="HCPL-063N" x="-59" y="-40" rot="MR0">
+<element name="U306" library="ic" package="SO8" value="HCPL-063N" x="-59" y="-40" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-56" y="-40" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-62" y="-40" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C318" library="passives" package="CAPC1608" value="100n" x="-59" y="-33" rot="MR0">
+<element name="C318" library="passives" package="CAPC1608" value="100n" x="-59" y="-33" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-59" y="-32" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-59" y="-34" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C321" library="passives" package="CAPC1608" value="10n" x="-59" y="-35" rot="MR0">
+<element name="C321" library="passives" package="CAPC1608" value="10n" x="-59" y="-35" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-59" y="-34" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-59" y="-36" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R324" library="passives" package="RESC1608" value="350R" x="-57" y="-28" rot="MR180">
+<element name="R324" library="passives" package="RESC1608" value="350R" x="-57" y="-28" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-57" y="-29" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-57" y="-27" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="R327" library="passives" package="RESC1608" value="350R" x="-61" y="-28" rot="MR0">
+<element name="R327" library="passives" package="RESC1608" value="350R" x="-61" y="-28" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-61" y="-27" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-61" y="-29" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C324" library="passives" package="CAPC1608" value="15p" x="-57" y="-30.5" rot="MR180">
+<element name="C324" library="passives" package="CAPC1608" value="15p" x="-57" y="-30.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-57" y="-31.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-57" y="-29.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="C327" library="passives" package="CAPC1608" value="15p" x="-61" y="-30.5" rot="MR0">
+<element name="C327" library="passives" package="CAPC1608" value="15p" x="-61" y="-30.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-61" y="-29.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-61" y="-31.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="Q310" library="transistors" package="SOT23" value="BC807" x="-56.5" y="-49" rot="MR90">
+<element name="Q310" library="transistors" package="SOT23" value="BC807" x="-56.5" y="-49" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-54.5" y="-49" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-58.5" y="-49" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="Q313" library="transistors" package="SOT23" value="BC807" x="-61" y="-49" rot="MR90">
+<element name="Q313" library="transistors" package="SOT23" value="BC807" x="-61" y="-49" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-59" y="-49" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-63" y="-49" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R318" library="passives" package="RESC1608" value="350R" x="-56.5" y="-45.5" rot="MR180">
+<element name="R318" library="passives" package="RESC1608" value="350R" x="-56.5" y="-45.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-56.5" y="-46.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-56.5" y="-44.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="R321" library="passives" package="RESC1608" value="350R" x="-61" y="-45.5" rot="MR0">
+<element name="R321" library="passives" package="RESC1608" value="350R" x="-61" y="-45.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-61" y="-44.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-61" y="-46.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="D201" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAT54S" x="89" y="-12" rot="MR180">
+<element name="D201" library="diode" library_urn="urn:adsk.eagle:library:210" package="SOT23" package3d_urn="urn:adsk.eagle:package:43389/2" value="BAT54S" x="89" y="-12" smashed="yes" rot="MR180">
 <attribute name="NAME" x="87.095" y="-13.905" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="87.095" y="-8.825" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="C204" library="passives" package="CAPC1608" value="100n" x="3.5" y="2" rot="MR90">
+<element name="C204" library="passives" package="CAPC1608" value="100n" x="3.5" y="2" smashed="yes" rot="MR90">
 <attribute name="NAME" x="4.5" y="2" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="2.5" y="2" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C236" library="passives" package="CAPRR1000W80L1300T400H900" value="470p" x="-11" y="-51" rot="R180">
+<element name="C236" library="passives" package="CAPRR1000W80L1300T400H900" value="470p" x="-11" y="-51" smashed="yes" rot="R180">
 <attribute name="NAME" x="-11" y="-53.5" size="1" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="-11" y="-51" size="1" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="C239" library="passives" package="CAPC1608" value="100n" x="-17.27" y="-57" rot="MR180">
+<element name="C239" library="passives" package="CAPC1608" value="100n" x="-17.27" y="-57" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-17.27" y="-58" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-17.27" y="-56" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="C233" library="passives" package="CAPCP6032" value="10µ" x="5.5" y="-54" rot="MR270">
+<element name="C233" library="passives" package="CAPCP6032" value="10µ" x="5.5" y="-54" smashed="yes" rot="MR270">
 <attribute name="NAME" x="3.5" y="-54" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="7.5" y="-54" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="L203" library="inductor-coilcraft" library_urn="urn:adsk.eagle:library:240" package="MSS7341" package3d_urn="urn:adsk.eagle:package:14501/1" value="4µ7" x="-0.5" y="-53" rot="MR270">
+<element name="L203" library="inductor-coilcraft" library_urn="urn:adsk.eagle:library:240" package="MSS7341" package3d_urn="urn:adsk.eagle:package:14501/1" value="4µ7" x="-0.5" y="-53" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-4.325" y="-49.35" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="4.6375" y="-49.35" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="C232" library="passives" package="CAPPRD500W60D1000H" value="220µ" x="104" y="-57">
+<element name="C232" library="passives" package="CAPPRD500W60D1000H" value="220µ" x="104" y="-57" smashed="yes">
 <attribute name="NAME" x="104" y="-51.5" size="1" layer="25" font="vector" ratio="15" align="bottom-center"/>
 <attribute name="VALUE" x="104" y="-62.5" size="1" layer="27" font="vector" ratio="15" align="top-center"/>
 </element>
-<element name="SJ201" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="DUT_GND" x="89" y="3.5" rot="MR90">
+<element name="SJ201" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJW" package3d_urn="urn:adsk.eagle:package:15507/1" value="DUT_GND" x="89" y="3.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="90.778" y="1.341" size="1.27" layer="26" ratio="10" rot="MR90"/>
 <attribute name="VALUE" x="89" y="4.5" size="0.02" layer="28" rot="MR90"/>
 </element>
-<element name="J206" library="mechanical" package="AMPHENOL-12-762_2" value="DUT+" x="116" y="29.05" rot="R90">
+<element name="J206" library="mechanical" package="AMPHENOL-12-762_2" value="DUT+" x="116" y="29.05" smashed="yes" rot="R90">
 <attribute name="NAME" x="110.92" y="29.05" size="1" layer="25" font="vector" ratio="15" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="116" y="29.05" size="1" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="J207" library="mechanical" package="AMPHENOL-12-762_2" value="DUT-" x="116" y="13.81" rot="R90">
+<element name="J207" library="mechanical" package="AMPHENOL-12-762_2" value="DUT-" x="116" y="13.81" smashed="yes" rot="R90">
 <attribute name="NAME" x="110.92" y="13.81" size="1" layer="25" font="vector" ratio="15" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="116" y="13.81" size="1" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="J201" library="mechanical" package="HEAD_MALE_2X3" value="TEMP" x="0" y="1" rot="R270">
+<element name="J201" library="mechanical" package="HEAD_MALE_2X3" value="TEMP" x="0" y="1" smashed="yes" rot="R270">
 <attribute name="NAME" x="3" y="1" size="1" layer="25" font="vector" ratio="15" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="-3" y="1" size="1" layer="27" font="vector" ratio="15" rot="R270" align="top-center"/>
 </element>
-<element name="C225" library="passives" package="CAPC3216" value="4µ7" x="49.71" y="-34.5" rot="R180">
+<element name="C225" library="passives" package="CAPC3216" value="4µ7" x="49.71" y="-34.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="49.71" y="-36" size="1" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="49.71" y="-33" size="1" layer="27" font="vector" ratio="15" rot="R180" align="top-center"/>
 </element>
-<element name="U202" library="ic" package="SOT23-5L" value="LP2985-3.1" x="44" y="-11" rot="MR90">
+<element name="U202" library="ic" package="SOT23-5L" value="LP2985-3.1" x="44" y="-11" smashed="yes" rot="MR90">
 <attribute name="NAME" x="46.54" y="-11" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="41.46" y="-11" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C202" library="passives" package="CAPC3216" value="4µ7" x="40" y="-11" rot="MR90">
+<element name="C202" library="passives" package="CAPC3216" value="4µ7" x="40" y="-11" smashed="yes" rot="MR90">
 <attribute name="NAME" x="41.5" y="-11" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="38.5" y="-11" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C209" library="passives" package="CAPC3216" value="4µ7" x="48" y="-11" rot="MR90">
+<element name="C209" library="passives" package="CAPC3216" value="4µ7" x="48" y="-11" smashed="yes" rot="MR90">
 <attribute name="NAME" x="49.5" y="-11" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="46.5" y="-11" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C206" library="passives" package="CAPC2012" value="10n" x="44" y="-8" rot="MR0">
+<element name="C206" library="passives" package="CAPC2012" value="10n" x="44" y="-8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="44" y="-7" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="44" y="-9" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R211" library="passives" package="RESC1608" value="350R" x="50" y="-59.5" rot="MR0">
+<element name="R211" library="passives" package="RESC1608" value="350R" x="50" y="-59.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="50" y="-58.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="50" y="-60.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C238" library="passives" package="CAPC1608" value="470n" x="50" y="-62.5" rot="MR180">
+<element name="C238" library="passives" package="CAPC1608" value="470n" x="50" y="-62.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="50" y="-63.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="50" y="-61.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="Q202" library="transistors" package="SOT23" value="BC817" x="46" y="-61" rot="MR0">
+<element name="Q202" library="transistors" package="SOT23" value="BC817" x="46" y="-61" smashed="yes" rot="MR0">
 <attribute name="NAME" x="46" y="-59" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="46" y="-63" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R212" library="passives" package="RESC1608" value="350R" x="58" y="-59.5" rot="MR0">
+<element name="R212" library="passives" package="RESC1608" value="350R" x="58" y="-59.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="58" y="-58.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="58" y="-60.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C237" library="passives" package="CAPC1608" value="470n" x="58" y="-62.5" rot="MR180">
+<element name="C237" library="passives" package="CAPC1608" value="470n" x="58" y="-62.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="58" y="-63.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="58" y="-61.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="Q201" library="transistors" package="SOT23" value="BC817" x="54" y="-61" rot="MR0">
+<element name="Q201" library="transistors" package="SOT23" value="BC817" x="54" y="-61" smashed="yes" rot="MR0">
 <attribute name="NAME" x="54" y="-59" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="54" y="-63" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="R202" library="passives" package="RESC2012" value="2k15" x="105" y="-7" rot="MR270">
+<element name="R202" library="passives" package="RESC2012" value="2k15" x="105" y="-7" smashed="yes" rot="MR270">
 <attribute name="NAME" x="104" y="-7" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="106" y="-7" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="HS101" library="mechanical" package="D95263-001" value="HEATSINK_LGA775" x="-50" y="0" locked="yes"/>
-<element name="HS102" library="mechanical" package="E97378-001" value="HEATSINK_LGA115X" x="50" y="0" locked="yes"/>
-<element name="U203" library="ic" package="SOT23-5L" value="LP2985-3.1" x="-1" y="-30.5" rot="MR0">
+<element name="HS101" library="mechanical" package="D95263-001" value="HEATSINK_LGA775" x="-50" y="0" locked="yes" smashed="yes"/>
+<element name="HS102" library="mechanical" package="E97378-001" value="HEATSINK_LGA115X" x="50" y="0" locked="yes" smashed="yes"/>
+<element name="U203" library="ic" package="SOT23-5L" value="LP2985-3.1" x="-1" y="-30.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-1" y="-27.96" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-1" y="-33.04" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C203" library="passives" package="CAPC3216" value="4µ7" x="-1" y="-34" rot="MR0">
+<element name="C203" library="passives" package="CAPC3216" value="4µ7" x="-1" y="-34" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-1" y="-32.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-1" y="-35.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C210" library="passives" package="CAPC3216" value="4µ7" x="-1" y="-27" rot="MR0">
+<element name="C210" library="passives" package="CAPC3216" value="4µ7" x="-1" y="-27" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-1" y="-25.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-1" y="-28.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="C207" library="passives" package="CAPC2012" value="10n" x="-4" y="-30.5" rot="MR270">
+<element name="C207" library="passives" package="CAPC2012" value="10n" x="-4" y="-30.5" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-5" y="-30.5" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="-3" y="-30.5" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R103" library="passives" package="RESC1608" value="5k" x="-52" y="8.5" rot="MR180">
+<element name="R103" library="passives" package="RESC1608" value="5k" x="-52" y="8.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-52" y="7.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="-52" y="9.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="Q101" library="transistors" package="SOT23" value="BC807" x="-52" y="5" rot="MR90">
+<element name="Q101" library="transistors" package="SOT23" value="BC807" x="-52" y="5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-50" y="5" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-54" y="5" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="Q105" library="transistors" package="SOT23" value="BC817" x="-52" y="12" rot="MR90">
+<element name="Q105" library="transistors" package="SOT23" value="BC817" x="-52" y="12" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-50" y="12" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-54" y="12" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R107" library="passives" package="RESC3216" value="2R" x="-53.25" y="17" rot="MR270">
+<element name="R107" library="passives" package="RESC3216" value="2R" x="-53.25" y="17" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-54.75" y="17" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="-51.75" y="17" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R108" library="passives" package="RESC3216" value="2R" x="-57.75" y="17" rot="MR90">
+<element name="R108" library="passives" package="RESC3216" value="2R" x="-57.75" y="17" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-56.25" y="17" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-59.25" y="17" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="Q106" library="transistors" package="SOT23" value="BC807" x="-56.75" y="12" rot="MR90">
+<element name="Q106" library="transistors" package="SOT23" value="BC807" x="-56.75" y="12" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-54.75" y="12" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-58.75" y="12" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="Q102" library="transistors" package="SOT23" value="BC817" x="-56.75" y="5" rot="MR90">
+<element name="Q102" library="transistors" package="SOT23" value="BC817" x="-56.75" y="5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-54.75" y="5" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-58.75" y="5" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R104" library="passives" package="RESC1608" value="5k" x="-56.75" y="8.5" rot="MR0">
+<element name="R104" library="passives" package="RESC1608" value="5k" x="-56.75" y="8.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-56.75" y="9.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-56.75" y="7.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="U103" library="ic" package="SO8" value="AD620" x="-75" y="0" rot="MR0">
+<element name="U103" library="ic" package="SO8" value="AD620" x="-75" y="0" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-72" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-78" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R101" library="passives" package="RESC1608" value="49k3" x="-71" y="0" rot="MR270">
+<element name="R101" library="passives" package="RESC1608" value="49k3" x="-71" y="0" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-72" y="0" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="-70" y="0" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="C115" library="passives" package="CAPC1608" value="470n" x="-51" y="16" rot="MR90">
+<element name="C115" library="passives" package="CAPC1608" value="470n" x="-51" y="16" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-50" y="17" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="-52" y="17" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C116" library="passives" package="CAPC1608" value="470n" x="-55.5" y="16" rot="MR270">
+<element name="C116" library="passives" package="CAPC1608" value="470n" x="-55.5" y="16" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-56.5" y="16" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="-54.5" y="16" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R105" library="passives" package="RESC1608" value="5k" x="43.25" y="8.5" rot="MR180">
+<element name="R105" library="passives" package="RESC1608" value="5k" x="43.25" y="8.5" smashed="yes" rot="MR180">
 <attribute name="NAME" x="44.25" y="-14.5" size="1" layer="26" font="vector" ratio="15" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="44.25" y="-12.5" size="1" layer="28" font="vector" ratio="15" rot="MR180" align="top-center"/>
 </element>
-<element name="Q103" library="transistors" package="SOT23" value="BC807" x="43.25" y="5" rot="MR90">
+<element name="Q103" library="transistors" package="SOT23" value="BC807" x="43.25" y="5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="47.25" y="-10" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="43.25" y="-10" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="Q107" library="transistors" package="SOT23" value="BC817" x="43.25" y="12" rot="MR90">
+<element name="Q107" library="transistors" package="SOT23" value="BC817" x="43.25" y="12" smashed="yes" rot="MR90">
 <attribute name="NAME" x="47.25" y="-14" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="43.25" y="-14" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R109" library="passives" package="RESC3216" value="2R" x="42.25" y="17" rot="MR270">
+<element name="R109" library="passives" package="RESC3216" value="2R" x="42.25" y="17" smashed="yes" rot="MR270">
 <attribute name="NAME" x="38.75" y="38" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="41.75" y="38" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R110" library="passives" package="RESC3216" value="2R" x="46.75" y="17" rot="MR90">
+<element name="R110" library="passives" package="RESC3216" value="2R" x="46.75" y="17" smashed="yes" rot="MR90">
 <attribute name="NAME" x="52.25" y="6" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="49.25" y="6" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="Q108" library="transistors" package="SOT23" value="BC807" x="48" y="12" rot="MR90">
+<element name="Q108" library="transistors" package="SOT23" value="BC807" x="48" y="12" smashed="yes" rot="MR90">
 <attribute name="NAME" x="48" y="-6" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="44" y="-6" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="Q104" library="transistors" package="SOT23" value="BC817" x="48" y="5" rot="MR90">
+<element name="Q104" library="transistors" package="SOT23" value="BC817" x="48" y="5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="48" y="-24" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="44" y="-24" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R106" library="passives" package="RESC1608" value="5k" x="48" y="8.5" rot="MR0">
+<element name="R106" library="passives" package="RESC1608" value="5k" x="48" y="8.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="73" y="13.5" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="73" y="11.5" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
-<element name="U104" library="ic" package="SO8" value="AD620" x="25" y="0" rot="MR0">
+<element name="U104" library="ic" package="SO8" value="AD620" x="25" y="0" smashed="yes" rot="MR0">
 <attribute name="NAME" x="51" y="-24" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="45" y="-24" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="R102" library="passives" package="RESC1608" value="49k3" x="29" y="0" rot="MR270">
+<element name="R102" library="passives" package="RESC1608" value="49k3" x="29" y="0" smashed="yes" rot="MR270">
 <attribute name="NAME" x="45" y="36" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="47" y="36" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="C117" library="passives" package="CAPC1608" value="470n" x="44.5" y="16" rot="MR90">
+<element name="C117" library="passives" package="CAPC1608" value="470n" x="44.5" y="16" smashed="yes" rot="MR90">
 <attribute name="NAME" x="23.5" y="-12" size="1" layer="26" font="vector" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="21.5" y="-12" size="1" layer="28" font="vector" ratio="15" rot="MR90" align="top-center"/>
 </element>
-<element name="C118" library="passives" package="CAPC1608" value="470n" x="49" y="16" rot="MR270">
+<element name="C118" library="passives" package="CAPC1608" value="470n" x="49" y="16" smashed="yes" rot="MR270">
 <attribute name="NAME" x="75" y="48" size="1" layer="26" font="vector" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="77" y="48" size="1" layer="28" font="vector" ratio="15" rot="MR270" align="top-center"/>
 </element>
-<element name="R1" library="passives" package="RESC1608" value="1k" x="-75" y="-28" rot="MR0">
+<element name="R1" library="passives" package="RESC1608" value="1k" x="-75" y="-28" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-75" y="-27" size="1" layer="26" font="vector" ratio="15" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="-75" y="-29" size="1" layer="28" font="vector" ratio="15" rot="MR0" align="top-center"/>
 </element>
@@ -3701,15 +3701,12 @@ design rules under a new name.</description>
 <contactref element="R115" pad="2"/>
 <wire x1="46.5" y1="-5.85" x2="44" y2="-5.85" width="0.4064" layer="16"/>
 <wire x1="110" y1="-45" x2="143.54" y2="-60" width="0" layer="19" extent="1-1"/>
-<wire x1="101.5" y1="-57" x2="110" y2="-45" width="0" layer="19" extent="1-1"/>
-<wire x1="80" y1="-60.85" x2="101.5" y2="-57" width="0" layer="19" extent="16-16"/>
-<wire x1="53" y1="-6.1" x2="77.7432" y2="-45.980071875" width="0" layer="19" extent="1-16"/>
-<wire x1="52.75" y1="-5.85" x2="53" y2="-6.1" width="0" layer="19" extent="16-16"/>
-<wire x1="46.5" y1="-5.85" x2="49" y2="-5.85" width="0" layer="19" extent="16-16"/>
-<wire x1="37.8" y1="-5.85" x2="44" y2="-5.85" width="0" layer="19" extent="16-16"/>
 <wire x1="-47" y1="-6.1" x2="-46.9" y2="-6" width="0" layer="19" extent="16-16"/>
 <wire x1="-47.25" y1="-5.85" x2="-47" y2="-6.1" width="0" layer="19" extent="16-16"/>
 <wire x1="-53.25" y1="-5.85" x2="-50.75" y2="-5.85" width="0" layer="19" extent="16-16"/>
+<wire x1="44" y1="-5.85" x2="37.8" y2="-5.85" width="0" layer="19" extent="16-16"/>
+<wire x1="49" y1="-5.85" x2="46.5" y2="-5.85" width="0" layer="19" extent="16-16"/>
+<wire x1="53" y1="-6.1" x2="52.75" y2="-5.85" width="0" layer="19" extent="16-16"/>
 <wire x1="-63.5" y1="-5.85" x2="-55.75" y2="-5.85" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="+5V">
